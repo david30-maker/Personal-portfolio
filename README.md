@@ -1,26 +1,5 @@
-<a name="readme-top"></a>
+ <h3><b>Microverse README Template</b></h3>
 
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-
-
-
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
  TABLE OF CONTENTS 
 
@@ -153,8 +132,8 @@ http://localhost:5500
 
  Describe 1 - 3 features you will add to the project.
 
-- [ ] **arcticle section**
-- [ ] **button**
+- [ ] **contact form**
+- [ ] ****
 - [ ] 
 
 
