@@ -62,14 +62,6 @@ The finish mobile version is about building a responsive portfolio for mobile de
   </ul>
 </details>
 
-
-### Key Features <a name="key-features"></a>
-
-
-- **HTML**
-- **CSS**
-- **[key_feature_3]**
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -185,17 +177,6 @@ I would like to thank...
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
