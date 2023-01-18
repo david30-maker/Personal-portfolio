@@ -48,10 +48,10 @@ REQUIRED SECTIONS:
 
 PROJECT DESCRIPTION 
 
-# 📖  Portfolio finish mobile version<a name="about-project"></a>
+# 📖 Finish mobile version<a name="about-project"></a>
 
 
-Portfolio finish mobile version is about building a responsive portfolio for mobile devices usage. In this project, I use Html and CSS to make my portfolio responsive on  all mobile devices.
+The finish mobile version is about building a responsive portfolio for mobile devices usage. In this project, I use Html and CSS to make my portfolio responsive on  all mobile devices.
 
 ## 🛠 HTML<a name="built-with"></a>
 
