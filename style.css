@@ -232,12 +232,16 @@ ul li {
   margin-left: 10px;
 }
 
-img {
+.social-image li {
+  list-style: none;
+}
+
+/* img {
   margin-right: 10px;
   display: inline-block;
   margin-bottom: 5px;
   padding-top: 10px;
-}
+} */
 
 .container_2 {
   background-color: white;
@@ -265,6 +269,14 @@ img {
   margin-bottom: 50px;
   text-decoration: none;
   color: #7f8cff;
+}
+
+.social_2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 50%;
+  margin-bottom: 15px;
 }
 
 .btn {
