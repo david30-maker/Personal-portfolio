@@ -1,143 +1,186 @@
-<a name="readme-top"></a>
 
-
-<div>
-
-  <h3><b>Microverse</b></h3>
-
-</div>
-
-
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [Html](#built-with)
-    - [Css](#tech-stack)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
 
-# 📖 Finish mobile version<a name="about-project"></a>
-Finish mobile version is a about a mobile screen device portfolio where you can contact or visit to see information about me and what I do. You can visit it and contact me to:
-create your personal portfolio.
+# 📖 David's Portfolio <a name="about-project"></a>
 
+**David's Portfolio** is a website that displays my skills and the projects Ihave done
 
-##  HTML<a name="built-with"></a>
+## 🛠 Built With <a name="built-with"></a>
 
-###  CSS<a name="tech-stack"></a>
+### Tech Stack <a name="tech-stack"></a>
 
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+     <li><a href="#">N/A</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+
+- **Mobile navigation menu**
+- **Headline sections**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-    
 
--  N/A
+
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
+To get a local copy up and running, follow these steps.
+
 ### Prerequisites
 
-In order to run this project you need:
-
-- Visual studio code installed
-
-- Browser installed
+- In order to run this project you need:
+   - Modern web browser                                                                                                                                                                                                                                                                                                     -           -
 
 
 ### Setup
 
-Clone this repository to your desired folder:
-
-git clone git@github.com/david30-maker/finish-mobile-version.git
-  cd Mobile-first-project
+- Clone this repository to your desired folder with the command `git@github.com:david30-maker/finish-mobile-version.git`
+- cd finish-mobile-version
 
 
+### Install
 
+Install this project with:
+
+- cd finish-mobile-version
+- Double click on the index.html file
+- 
 ### Usage
 
-To run the project, execute the following command:
+- To run the project, execute the following command:
 
- - index.html file
-
-
+ - Double click on the index.html file
 ### Run tests
 
 To run tests, run the following command:
 
- - npx stylelint "**/*.{css,scss}"
+- N/A
 
+### Deployment
 
+- You can deploy this project using:
 
+ - Double click on the index.html file
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
-
 👤 **Author1**
 
-- GitHub: [@david30-maker](https://github.com/githubhandle)
-- Twitter: [@davidigbo](https://twitter.com/twitterhandle)
-- LinkedIn: [linkedin.com/in/dvid-igbo-464196184/](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/david30-maker)
+- Twitter: [@twitterhandle](https://twitter.com/davidigbo) 
+- LinkedIn: [LinkedIn](https://linkedin.com/in/dvid-igbo-464196184/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-
--  **Contact Form**
+- [ ] **Contact Form**
+- [ ] **About me Section**
+- [ ] **Animations & transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-****
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
-****
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-****
-If you like this project and want to support me make awesome projects give this project a Like
+
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+
+I would like to thank...
+- Microverse
+- Wayungi Francis
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
-****
+
 This project is [MIT](./LICENSE) licensed.
 
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
