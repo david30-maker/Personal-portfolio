@@ -301,14 +301,14 @@ ul li {
 }
 
 button:hover {
-  background-color: #6070FF;
+  background-color: #6070ff;
 }
 
 button:active {
-  background-color: #2230D2;
+  background-color: #2230d2;
 }
 
-button:disabled{
+button:disabled {
   background-color: #ebebff;
 }
 
