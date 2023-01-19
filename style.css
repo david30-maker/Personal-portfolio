@@ -271,12 +271,25 @@ ul li {
 
 .section_2 p {
   margin-bottom: 10px;
+  width: 327px;
+  height: 144px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
 }
 
-#connect_1 {
+.connect_1 {
   margin-bottom: 50px;
   text-decoration: none;
-  color: #7f8cff;
+  width: 117px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
 }
 
 .social_2 {
@@ -284,7 +297,7 @@ ul li {
   justify-content: space-between;
   align-items: start;
   width: 50%;
-  margin-bottom: 15px;
+  margin-top: 18px;
 }
 
 .btn {
