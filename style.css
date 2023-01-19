@@ -337,6 +337,7 @@ ul li {
 
 #faa-2 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 20px;
   background: #f7f7f9;
@@ -360,6 +361,7 @@ ul li {
 
 .div-2 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 20px;
   background: #f7f7f9;
@@ -397,6 +399,7 @@ ul li {
 
 .div-5 a {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 20px;
   margin-top: 40px;
   padding-top: 40px;
@@ -412,6 +415,7 @@ ul li {
 
 .div-6 a {
   display: flex;
+  flex-wrap: wrap;
   padding-left: 20px;
   margin-top: 40px;
   padding-top: 40px;
@@ -434,6 +438,7 @@ ul li {
 
 .div-3 {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 20px;
   background: #f7f7f9;
