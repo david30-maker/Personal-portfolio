@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 
 .stage_1 {
@@ -86,10 +86,6 @@ header a {
   margin-bottom: 15px;
 }
 
-.social-image li {
-  list-style: none;
-}
-
 .work_section {
   display: grid;
 }
@@ -150,6 +146,10 @@ ul li {
   display: inline-block;
 }
 
+.social-image li {
+  list-style: none;
+}
+
 .section_1 ul li {
   padding-top: 10px;
   padding-bottom: 12px;
@@ -159,7 +159,7 @@ ul li {
   padding-bottom: 10px;
   width: 295px;
   height: 76px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -218,16 +218,8 @@ ul li {
   padding-bottom: 30px;
 }
 
-.list_2 {
-  margin-left: 10px;
-}
-
 .list_3 {
   margin-left: 10px;
-}
-
-.social-image li {
-  list-style: none;
 }
 
 .container_2 {
@@ -271,7 +263,7 @@ ul li {
   text-decoration: none;
   width: 117px;
   height: 24px;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -342,7 +334,6 @@ ul li {
   line-height: 20px;
   width: 350px;
   height: 62px;
-  background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 10px;
   background-image: url(images/Ellipse-23.png);
@@ -376,14 +367,14 @@ ul li {
 
 .div-2 a {
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #253858;
 }
 
 .div-3 a {
   text-decoration: none;
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   color: #253858;
 }
