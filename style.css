@@ -300,6 +300,18 @@ ul li {
   margin-left: 10px;
 }
 
+button:hover {
+  background-color: #6070FF;
+}
+
+button:active {
+  background-color: #2230D2;
+}
+
+button:disabled{
+  background-color: #ebebff;
+}
+
 .div-7 a {
   display: flex;
   padding-left: 20px;
