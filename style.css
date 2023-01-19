@@ -4,14 +4,7 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: whitesmoke;
-}
-
-* {
-  margin: 0;
-  padding: 0;
+  background: #E5E5E5;
 }
 
 .stage_1 {
@@ -43,7 +36,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 18px; 
+  font-size: 18px;
   line-height: 20px;
 }
 
@@ -124,17 +117,18 @@ header a {
 }
 
 .section_1 h2 {
-width: 295px;
-height: 65px; 
-font-weight: 900;
-font-size: 40px;
-line-height: 50px;
-color: #172B4D;
+  width: 295px;
+  height: 65px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 50px;
+  color: #172b4d;
 }
 
-.list-ul{
+.list-ul {
   margin-bottom: 5px;
 }
+
 .list_1 {
   width: 60px;
   height: 25px;
@@ -149,7 +143,7 @@ color: #172B4D;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 ul li {
@@ -162,15 +156,15 @@ ul li {
 }
 
 .section_1 p {
- padding-bottom: 10px;
- width: 295px;
- height: 76px;
- font-family: 'Poppins';
- font-style: normal;
- font-weight: 400;
- font-size: 17px;
- line-height: 24px;
- color: #344563;
+  padding-bottom: 10px;
+  width: 295px;
+  height: 76px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  color: #344563;
 }
 
 .section_1 button {
@@ -259,7 +253,7 @@ ul li {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .section_2 p {
@@ -282,7 +276,7 @@ ul li {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 .social_2 {
@@ -307,10 +301,10 @@ ul li {
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: #396DF2;
+  color: #396df2;
   background-color: white;
   border-radius: 5px;
-  border: 1px solid #396DF2;
+  border: 1px solid #396df2;
   margin-left: 10px;
 }
 
@@ -324,14 +318,14 @@ ul li {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none; 
-  color: #000000;
+  text-decoration: none;
+  color: #000;
   margin-bottom: 20px;
 }
 
 .faa-1 {
   padding-left: 50%;
-} 
+}
 
 #faa-2 {
   display: flex;
@@ -348,7 +342,7 @@ ul li {
   line-height: 20px;
   width: 350px;
   height: 62px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin-bottom: 10px;
   background-image: url(images/Ellipse-23.png);
@@ -368,7 +362,7 @@ ul li {
   display: flex;
   align-items: center;
   margin-left: 20px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   padding-left: 80px;
   border-radius: 8px;
   color: #253858;
@@ -434,8 +428,8 @@ ul li {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none; 
-  color: #000000;
+  text-decoration: none;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -453,12 +447,10 @@ ul li {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  text-decoration: none; 
-  color: #000000;
+  text-decoration: none;
+  color: #000;
   margin-bottom: 20px;
 }
-
-
 
 .link2 {
   padding-left: 65%;
