@@ -258,7 +258,15 @@ ul li {
 }
 
 .section_2 h2 {
+  display: flex;
+  align-items: center;
   margin-bottom: 10px;
+  width: 327px;
+  height: 101px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
 }
 
 .section_2 p {
