@@ -301,20 +301,25 @@ ul li {
 }
 
 .btn {
-  display: block;
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 30px;
-  border-radius: 5px;
-  color: #7f8cff;
-  border: 1px solid #7f8cff;
-  width: 130px;
-  height: 60px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  background-color: white;
+  width: 150px;
+  height: 50px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #396DF2;
+  margin-left: 10px;
+  transform: rotate(360deg);
 }
 
 .div-7 {
