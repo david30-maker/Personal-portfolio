@@ -300,16 +300,20 @@ ul li {
   margin-left: 10px;
 }
 
-button:hover {
+.btn:hover {
   background-color: #6070ff;
+
+    color: #fff;
 }
 
-button:active {
+.btn:active {
   background-color: #2230d2;
+  color: #fff;
 }
 
-button:disabled {
+.btn:disabled {
   background-color: #ebebff;
+  color: #7a869a;
 }
 
 .div-7 a {
