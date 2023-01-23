@@ -190,6 +190,7 @@ ul li {
 }
 
 .btn_5 {
+  float: right;
   width: 80px;
   height: 20px;
   margin-left: 4px;
