@@ -480,6 +480,12 @@ hr {
   background: #6070FF;
   border-top-left-radius: 60px;
   margin-top: 30px;
+  background-image: 
+  url(images/Rectangle-4.png),
+  url(images/Ellipse-3.png),
+  url(images/Ellipse-12.png);
+  background-position-x: 110%, 110%, 50%;
+  background-position-y: 15%, 14%, 14%;
 }
 
 .form-div {
