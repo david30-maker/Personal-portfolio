@@ -484,8 +484,9 @@ hr {
   url(images/Rectangle-4.png),
   url(images/Ellipse-3.png),
   url(images/Ellipse-12.png);
-  background-position-x: 110%, 110%, 50%;
-  background-position-y: 15%, 14%, 14%;
+  background-position-x: 100%, 100%, 41%;
+  background-position-y: 6%, 9%, 9%;
+  background-repeat: no-repeat;
 }
 
 .form-div {
@@ -525,8 +526,8 @@ form {
   background-image: 
   url(images/Rectangle-7.png),
   url(images/Ellipse-5.png);
-  background-position-x: 70%, 70%;
-  background-position-y: 80%, 78%;
+  background-position-x: 88%, 81.5%;
+  background-position-y: 86%, 85%;
   background-repeat: no-repeat;
 }
 
