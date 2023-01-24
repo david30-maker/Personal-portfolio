@@ -524,8 +524,8 @@ form {
   background-image: 
   url(images/Rectangle-7.png),
   url(images/Ellipse-5.png);
-  background-position-x: 88%, 81.5%;
-  background-position-y: 86%, 85%;
+  background-position-x: 88%, 81.9%;
+  background-position-y: 95%, 92%;
   background-repeat: no-repeat;
 }
 
@@ -543,7 +543,6 @@ form input {
   width: 70%;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  color: #ffffff;
 }
 
 form  textarea {
@@ -553,7 +552,6 @@ form  textarea {
   width: 70%;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
-  color: #ffffff;
 } 
 
 .form-button {
