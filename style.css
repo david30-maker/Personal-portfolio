@@ -175,14 +175,13 @@ ul li {
 }
 
 .btn_3 {
-  float: left;
+  
   width: 45px;
   height: 20px;
   text-align: center;
 }
 
 .btn_4 {
-  float: right;
   width: 40px;
   height: 20px;
   margin-left: 4px;
@@ -190,7 +189,6 @@ ul li {
 }
 
 .btn_5 {
-  float: right;
   width: 80px;
   height: 20px;
   margin-left: 4px;
@@ -540,7 +538,7 @@ form ul li {
 
 form input {
   margin: 10px;
-  padding: 20px;
+  padding: 10px;
   outline: none;
   width: 70%;
   border-radius: 8px;
@@ -550,34 +548,53 @@ form input {
 
 form  textarea {
   margin: 10px;
-  padding: 30px;
+  padding: 10px;
   outline: none;
-  width: 65%;
+  width: 70%;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
   color: #ffffff;
-  
 } 
 
 .form-button {
-  margin-left: 40px;
+
+  text-align: center;
   border-radius: 8px;
-  width: 50%;
-  height: 35%;
+  width: 30%;
+  height: 30%;
   margin-top: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 30px;
-  font-weight: 400px;
+  font-size: 16px;
+  font-weight: 150px;
   background-color: #ffffff;
-  border: 1px solid #6070ff;
+  border: 1px solid #2230d2;
   color: #6070ff;
   margin-bottom: 15px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 195px;
+}
+
+.form-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form-button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.form-button:disabled {
+  background-color: #ebebff;
+  color: #5e6c84;
+  border: 1px solid #5E6C84;
+  
 }
 
 form img {
   margin-bottom: 10px;
-  height: 8px;
+  height: 3px;
   border-radius: 8px;
-
 }
