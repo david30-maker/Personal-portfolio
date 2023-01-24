@@ -484,8 +484,8 @@ hr {
   url(images/Rectangle-4.png),
   url(images/Ellipse-3.png),
   url(images/Ellipse-12.png);
-  background-position-x: 100%, 100%, 41%;
-  background-position-y: 6%, 9%, 9%;
+  background-position-x: 101%, 101%, 41%;
+  background-position-y: 5.3%, 9%, 9%;
   background-repeat: no-repeat;
 }
 
@@ -578,5 +578,6 @@ form  textarea {
 form img {
   margin-bottom: 10px;
   height: 8px;
+  border-radius: 8px;
 
 }
