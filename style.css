@@ -504,7 +504,7 @@ hr {
 
 .form-div h3 {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 40px;
   line-height: 52px;
 }
 
@@ -513,13 +513,14 @@ hr {
   align-items: center;
   margin: 15px 20px;
   font-weight: 200px;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
   text-align: center;
   height: 80%;
 }
 
 form {
+  display: flex;
   outline: none;
   width: 90%;
   height: 90%;
