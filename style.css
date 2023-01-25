@@ -499,6 +499,7 @@ hr {
   font-style: normal;
   padding-top: 90px;
   color: #fff;
+  width: 100%;
 }
 
 .form-div h3 {
@@ -510,14 +511,12 @@ hr {
 .form-div p {
   display: flex;
   align-items: center;
-  margin: 10px 20px;
+  margin: 15px 20px;
   font-weight: 200px;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
-  width: 70%;
   height: 80%;
-  margin-left: 16%;
 }
 
 form {
@@ -525,12 +524,12 @@ form {
   width: 90%;
   height: 90%;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   background-image:
     url(images/Rectangle-7.png),
     url(images/Ellipse-5.png);
   background-position-x: 88%, 81.9%;
-  background-position-y: 95%, 92%;
+  background-position-y: 87%, 86%;
   background-repeat: no-repeat;
 }
 
@@ -538,7 +537,10 @@ form input {
   margin: 10px;
   padding: 10px;
   outline: none;
-  width: 70%;
+  width: 95%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
 }
@@ -547,7 +549,10 @@ form textarea {
   margin: 10px;
   padding: 10px;
   outline: none;
-  width: 70%;
+  width: 95%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
 }
@@ -555,19 +560,21 @@ form textarea {
 .form-button {
   text-align: center;
   border-radius: 8px;
-  width: 30%;
-  height: 30%;
   margin-top: 10px;
+  width: 150px;
+  height: 45px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 150px;
+  line-height: 24px;
   background-color: #fff;
-  border: 1px solid #2230d2;
+  border: 1px solid #6070ff;
   color: #6070ff;
   margin-bottom: 15px;
   letter-spacing: 0.03em;
   cursor: pointer;
+  margin-right: 260px;
 }
 
 .form-button:hover {
