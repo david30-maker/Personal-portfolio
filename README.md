@@ -123,7 +123,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Okpah Igbo**
 
 - GitHub: [@githubhandle](https://github.com/david30-maker)
 - Twitter: [@twitterhandle](https://twitter.com/davidigbo) 
@@ -132,20 +132,17 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Contact Form**
-- [ ] **About me Section**
 - [ ] **Animations & transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
 
-## 🤝 Contributing <a name="contributing"></a>
+
+## 🤝 Bronnie313 <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
@@ -153,7 +150,6 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
