@@ -146,6 +146,12 @@ ul li {
   display: inline-block;
 }
 
+form ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .social-image li {
   list-style: none;
 }
@@ -471,4 +477,123 @@ hr {
   margin-left: 10px;
   width: 93%;
   position: absolute;
+}
+
+.section-form {
+  background: #6070ff;
+  border-top-left-radius: 60px;
+  margin-top: 30px;
+  background-image:
+    url(images/Rectangle-4.png),
+    url(images/Ellipse-3.png),
+    url(images/Ellipse-12.png);
+  background-position-x: 100%, 100%, 43%;
+  background-position-y: 5.3%, 8.3%, 9%;
+  background-repeat: no-repeat;
+}
+
+.form-div {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 90px;
+  color: #fff;
+}
+
+.form-div h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-div p {
+  padding: 25px;
+  margin: 10px 20px 0;
+  font-weight: 200px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  outline: none;
+  width: 95%;
+  height: 95%;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-image:
+    url(images/Rectangle-7.png),
+    url(images/Ellipse-5.png);
+  background-position-x: 88%, 81.9%;
+  background-position-y: 87%, 86%;
+  background-repeat: no-repeat;
+}
+
+form input {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+form textarea {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+.form-button {
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 150px;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 150px;
+  line-height: 24px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  margin-bottom: 15px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 57%;
+}
+
+.form-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form-button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.form-button:disabled {
+  background-color: #ebebff;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
+form img {
+  margin-bottom: 10px;
+  height: 3px;
+  border-radius: 8px;
 }

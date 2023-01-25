@@ -123,7 +123,7 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Okpah igbo**
 
 - GitHub: [@githubhandle](https://github.com/david30-maker)
 - Twitter: [@twitterhandle](https://twitter.com/davidigbo) 
@@ -137,8 +137,7 @@ To run tests, run the following command:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Contact Form**
-- [ ] **About me Section**
+
 - [ ] **Animations & transitions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -170,7 +169,6 @@ If you like this project...
 
 I would like to thank...
 - Microverse
-- Wayungi Francis
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
