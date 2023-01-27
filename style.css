@@ -62,6 +62,10 @@ header a {
   display: none;
 }
 
+.desktop-hidden {
+  display: block;
+}
+
 .bio-section {
   display: flex;
   flex-direction: column;
@@ -98,6 +102,75 @@ header a {
   list-style: none;
 }
 
+.card {
+  background: white;
+  display: flex;
+  border-radius: 20px;
+  border: 1px solid silver;
+  padding: 40px;
+  margin: 60px 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.mobile-card {
+  flex-direction: column;
+}
+
+.card-img-div img {
+  width: 100%;
+}
+
+.card h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+}
+
+.card-highlights {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 50%;
+}
+
+.card-highlights img {
+  width: 8px;
+  height: 8px;
+  color: #7a869a;
+}
+
+.card-tags {
+  background: #ebebff;
+  color: #6070ff;
+  border-radius: 8px;
+  border: none;
+}
+
+.card-btn {
+  color: #7f8cff;
+  border: 1px solid #7f8cff;
+  width: 115px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.card-details-div div {
+  margin-bottom: 15px;
+}
+
+.desktop-card {
+  display: none;
+} 
 
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
@@ -131,18 +204,6 @@ header a {
 
   .mobile-hidden {
     display: block;
-  }
-
-  /* header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 40px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-  } */
-
-  .logo {
-    /* width: 50%; */
   }
 
   nav {
@@ -183,6 +244,23 @@ header a {
 
   .social-image {
     width: 30%;
+  }
 
+  .desktop-card {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobile-card {
+    display: none;
+  }
+
+  .desktop-card > div:nth-child(2) {
+    width: 50%;
+    margin-left: 40px;
+  }
+
+  .card-highlights {
+    padding-left: 0;
   }
 }
