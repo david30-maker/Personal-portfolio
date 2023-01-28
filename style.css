@@ -143,6 +143,8 @@ form img {
   line-height: 16px;
   display: flex;
   justify-content: space-between;
+  /* space-between:  */
+  padding:10px;
   align-items: baseline;
   width: 50%;
 }
@@ -151,6 +153,10 @@ form img {
   width: 8px;
   height: 8px;
   color: #7a869a;
+}
+
+.card-highlights p, .card-highlights img {
+  /* margin: 15px; */
 }
 
 .card-tags {
@@ -447,8 +453,13 @@ form ul li {
     margin-left: 40px;
   }
 
+  .desktop-card > div {
+    width: 50%;
+  }
+
   .card-highlights {
     padding-left: 0;
+    
   }
 
   .about-section {
