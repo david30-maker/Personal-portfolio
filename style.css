@@ -444,6 +444,10 @@ form ul li {
     margin-left: 40px;
   }
 
+  .desktop-card > div {
+    width: 50%;
+  }
+
   .card-highlights {
     padding-left: 0;
     width: 250px;
