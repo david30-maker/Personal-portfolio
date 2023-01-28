@@ -145,7 +145,7 @@ form img {
   justify-content: space-between;
   padding:10px;
   align-items: baseline;
-  width: 50%;
+  width: 60%;
 }
 
 .card-highlights img {
@@ -222,10 +222,6 @@ form img {
 
 .language-div div:first-of-type {
   margin-right: 15px;
-}
-
-.language-div div:nth-of-type(2) {
-  /* padding-right: 80%; */
 }
 
 #languages {
@@ -450,7 +446,7 @@ form ul li {
 
   .card-highlights {
     padding-left: 0;
-    
+    width: 250px;
   }
 
   .about-section {
