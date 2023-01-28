@@ -532,6 +532,7 @@ form ul li {
     background-repeat: no-repeat;
   }
 
+
   .form-div {
     margin-top: 50px;
   }
@@ -540,4 +541,14 @@ form ul li {
     margin-top: 80px;
     margin-bottom: 80px;
   }
+
+  input[type=text],
+  input[type=email] {
+    transition: width 2s;
+  }
+
+  input[type=text]:hover {
+    width: 100%;
+  }
 }
+
