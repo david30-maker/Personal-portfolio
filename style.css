@@ -143,6 +143,7 @@ form img {
   line-height: 16px;
   display: flex;
   justify-content: space-between;
+  padding:10px;
   align-items: baseline;
   width: 50%;
 }
@@ -355,10 +356,6 @@ form ul li {
 #form-btn {
   align-self: flex-start;
   margin-left: 17%;
-
-  /* margin: 0 auto; */
-
-  /* display: inline-block; */
 }
 
 /* DESKTOP */
@@ -447,8 +444,13 @@ form ul li {
     margin-left: 40px;
   }
 
+  .desktop-card > div {
+    width: 50%;
+  }
+
   .card-highlights {
     padding-left: 0;
+    
   }
 
   .about-section {
