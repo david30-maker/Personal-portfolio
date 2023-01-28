@@ -177,6 +177,7 @@ header a {
 
 .about-section {
   background-color: white;
+  border-top-right-radius: 60px;
 }
 
 .about-section .card-btn {
@@ -223,6 +224,141 @@ header a {
 #languages {
   width: 100%;
 }
+
+.section-form {
+  background: #6070ff;
+  border-top-left-radius: 60px;
+  margin-top: 30px;
+  background-image:
+    url(images/Rectangle-4.png),
+    url(images/Ellipse-3.png),
+    url(images/Ellipse-12.png);
+  background-position-x: 100%, 100%, 43%;
+  background-position-y: 5.3%, 8.3%, 9%;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-div {
+  text-align: center;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.form-div h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+}
+
+.form-div p {
+  padding: 25px;
+  margin: 10px 20px 0;
+  font-weight: 200px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  outline: none;
+  height: 95%;
+  margin-left: 20px;
+  margin-top: 30px;
+  background-image:
+    url(images/Rectangle-7.png),
+    url(images/Ellipse-5.png);
+  background-position-x: 73%, 70%;
+  background-position-y: 83%, 83%;
+  background-repeat: no-repeat;
+}
+
+form input {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+form textarea {
+  margin: 5px;
+  padding: 10px;
+  outline: none;
+  width: 85%;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+.form-button {
+  position: relative;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+  width: 150px;
+  height: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 150px;
+  line-height: 24px;
+  background-color: #fff;
+  border: 1px solid #6070ff;
+  color: #6070ff;
+  margin-bottom: 15px;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 57%;
+}
+
+.form-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.form-button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.form-button:disabled {
+  background-color: #ebebff;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
+form ul li {
+  list-style: none;
+}
+
+form img {
+  margin-bottom: 10px;
+  height: 3px;
+  border-radius: 8px;
+}
+
+#form-btn {
+  align-self: flex-start;
+  margin-left: 17%;
+  /* margin: 0 auto; */
+  /* display: inline-block; */
+}
+
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
 
@@ -345,4 +481,52 @@ header a {
     /* justify-content: space-between; */
   }
 
+  .section-form {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .form-div {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  #form-btn {
+    margin: 0 auto;
+  }
+
+  .section-form {
+    background: #6070ff;
+    border-top-left-radius: 60px;
+    margin-top: 30px;
+    background-image:
+      url(images/Rectangle-4.png),
+      url(images/Ellipse-3.png),
+      url(images/Ellipse-12.png);
+    background-position-x: 100%, 100%, 43%;
+    background-position-y: 5.3%, 8.3%, 9%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    outline: none;
+    height: 95%;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-image:
+      url(images/Rectangle-7.png),
+      url(images/Ellipse-5.png);
+    background-position-x: 73%, 70%;
+    background-position-y: 83%, 83%;
+    background-repeat: no-repeat;
 }
+
+}
+
