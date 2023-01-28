@@ -242,7 +242,7 @@ header a {
 
 .form-div {
   text-align: center;
-  margin-top: 80px;
+  margin-top: px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   padding-top: 30px;
@@ -500,15 +500,14 @@ form img {
     border-top-left-radius: 60px;
     margin-top: 30px;
     background-image:
-      url(images/Rectangle-4.png),
-      url(images/Ellipse-3.png),
+      url(images/Rectangle-44.png),
+      url(images/Ellipse-33.png),
       url(images/Ellipse-12.png);
-    background-position-x: 100%, 100%, 43%;
-    background-position-y: 5.3%, 8.3%, 9%;
+    background-position-x: 88%, 90%, 25%;
+    background-position-y: 7.9%, 12%, 9%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
   }
 
   form {
@@ -522,10 +521,17 @@ form img {
     margin-top: 30px;
     background-image:
       url(images/Rectangle-7.png),
-      url(images/Ellipse-5.png);
-    background-position-x: 73%, 70%;
-    background-position-y: 83%, 83%;
+      url(images/Ellipse-5.png),
+      url(images/Rectangle_6.png),
+      url(images/Ellipse-22.png),
+      url(images/Ellipse-13.png);
+    background-position-x: 10%, 10.4%, 20.5%, 22%, 75%;
+    background-position-y: 10%, 14.9%, 98%, 97%, 50%;
     background-repeat: no-repeat;
+
+}
+.form-div {
+  margin-top: 50px;
 }
 
 }
