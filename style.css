@@ -550,5 +550,9 @@ form ul li {
   input[type=text]:hover {
     width: 100%;
   }
+  
+  input[type=email]:hover {
+    width: 100%;
+  }
 }
 
