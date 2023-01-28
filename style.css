@@ -48,6 +48,9 @@ header {
   padding: 25px 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
+  box-shadow: 0 0.25px 8px 0 rgb(0, 0, 255, 0.2);
+  position: fixed;
+  width: 100%;
 }
 
 header a {
@@ -170,8 +173,56 @@ header a {
 
 .desktop-card {
   display: none;
-} 
+}
 
+.about-section {
+  background-color: white;
+}
+
+.about-section .card-btn {
+  width: 150px;
+}
+
+.about-section .bio-section {
+  padding-bottom: 0;
+}
+
+.skills-section {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.language-div {
+  display: flex;
+  background: #F7F7F9;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  align-items: center;
+  padding: 10px;
+
+}
+
+.language-div div:first-of-type {
+  margin-right: 15px;
+}
+
+.language-div div:nth-of-type(2) {
+  /* padding-right: 80%; */
+}
+#languages {
+  width: 100%;
+}
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
 
@@ -255,7 +306,7 @@ header a {
     display: none;
   }
 
-  .desktop-card > div:nth-child(2) {
+  .desktop-card>div:nth-child(2) {
     width: 50%;
     margin-left: 40px;
   }
@@ -263,4 +314,35 @@ header a {
   .card-highlights {
     padding-left: 0;
   }
+
+  .about-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+  }
+
+  .about-section .bio-section {
+    width: 50%;
+    padding-top: 0;
+  }
+
+  .about-section .skills-section {
+    width: 50%;
+  }
+
+  .language-div {
+    flex-direction: column;
+    margin-right: 20px;
+  }
+
+  #languages {
+    width: auto;
+  }
+
+  #lo {
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
 }

@@ -586,22 +586,7 @@ form img {
   border-radius: 8px;
 }
 
-.port-1 {
-  visibility: hidden;
-} 
 
-.img-tag1 {
-visibility: hidden;
-}
- 
-.img-tag-4 {
-  visibility: hidden;
-}
-
-
-.section_1 {
-  visibility: visible;
-}
 
 
 
@@ -901,9 +886,10 @@ visibility: hidden;
 
    .section-3-right {
     width: 50%;
+    padding-left: 40px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    padding-left: 40px;
+  
    }
 
    .section-1 {
