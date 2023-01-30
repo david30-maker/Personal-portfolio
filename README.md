@@ -70,7 +70,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link]( https://david30-maker.github.io/application-deploy/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -110,10 +110,6 @@ Install this project with:
 To run tests, run the following command:
 
 - N/A
-
-## Visit my page
-
-- click on this link:  https://david30-maker.github.io/desktop-version/
 
 ### Deployment
 
