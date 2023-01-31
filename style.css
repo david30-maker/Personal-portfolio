@@ -33,13 +33,15 @@ body {
 
 .logo {
   color: #6070ff;
-  width: 76px;
-  height: 20px;
+  width: 100px;
+  height: 24px;
+  padding-top: 10px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 800;
+  font-size: 24px;
   line-height: 20px;
+  text-align: center;
 }
 
 header {
@@ -55,6 +57,8 @@ header {
 
 header a {
   text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .icon {
@@ -89,7 +93,8 @@ header a {
 
 .bio-section a {
   text-decoration: none;
-  font-weight: bold;
+  font-size: 24px;
+  font-weight: 1000;
   display: inline-block;
   margin: 10px 0;
   color: #6070ff;
@@ -143,10 +148,9 @@ form img {
   line-height: 16px;
   display: flex;
   justify-content: space-between;
-  /* space-between:  */
-  padding:10px;
+  padding: 10px;
   align-items: baseline;
-  width: 50%;
+  width: 250px;
 }
 
 .card-highlights img {
@@ -155,28 +159,58 @@ form img {
   color: #7a869a;
 }
 
-.card-highlights p, .card-highlights img {
-  /* margin: 15px; */
-}
-
 .card-tags {
   background: #ebebff;
   color: #6070ff;
   border-radius: 8px;
   border: none;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.1rem;
+  animation-name: buttonChangeColor;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes buttonChangeColor {
+  from {
+    background: white;
+  }
+
+  to {
+    background: rgb(245, 215, 245)
+  }
 }
 
 .card-btn {
   color: #7f8cff;
   border: 1px solid #7f8cff;
-  width: 115px;
+  width: 140px;
   height: 40px;
-  font-weight: 500;
+  font-weight: 800;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
   background-color: white;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.card-btn:hover {
+  background-color: #2230d2;
+  color: white;
+}
+
+.card-btn:disabled {
+  background-color: white2;
+  color: silver;
+  border: 1px solid silver;
+}
+
+.card-btn:active {
+  background-color: #6070ff;
+  color: white;
 }
 
 .card-details-div div {
@@ -193,7 +227,8 @@ form img {
 }
 
 .about-section .card-btn {
-  width: 150px;
+  width: 190px;
+
 }
 
 .about-section .bio-section {
@@ -229,12 +264,12 @@ form img {
   margin-right: 15px;
 }
 
-.language-div div:nth-of-type(2) {
-  /* padding-right: 80%; */
-}
-
 #languages {
   width: 100%;
+}
+
+.frame {
+  border-bottom: 2px solid#7a869a;
 }
 
 .section-form {
@@ -326,8 +361,8 @@ form textarea {
   height: 45px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 16px;
-  font-weight: 150px;
+  font-size: 20px;
+  font-weight: 750;
   line-height: 24px;
   background-color: #fff;
   border: 1px solid #6070ff;
@@ -335,7 +370,7 @@ form textarea {
   margin-bottom: 15px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-right: 57%;
+  margin-left :auto;
 }
 
 .form-button:hover {
@@ -361,10 +396,6 @@ form ul li {
 #form-btn {
   align-self: flex-start;
   margin-left: 17%;
-
-  /* margin: 0 auto; */
-
-  /* display: inline-block; */
 }
 
 /* DESKTOP */
@@ -409,7 +440,7 @@ form ul li {
     width: 50%;
   }
 
-  .nav-links ul {
+  .nav-links ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -417,14 +448,14 @@ form ul li {
     display: flex;
   }
 
-  .nav-links ul li {
+  .nav-links ol li {
     flex: 1;
   }
 
-  .nav-links ul li a {
-    display: block;
+  .nav-links ol li {
+    display: inline-block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0 10px 0;
     text-decoration: none;
   }
 
@@ -448,18 +479,22 @@ form ul li {
     display: none;
   }
 
-  .desktop-card > div:nth-child(2) {
+  .desktop-card>div {
+    width: 50%;
+  }
+
+  .desktop-card>div:nth-child(2) {
     width: 50%;
     margin-left: 40px;
   }
 
-  .desktop-card > div {
+  .desktop-card>div {
     width: 50%;
   }
 
   .card-highlights {
     padding-left: 0;
-    
+    width: 250px;
   }
 
   .about-section {
@@ -550,7 +585,7 @@ form ul li {
   input[type=text]:hover {
     width: 100%;
   }
-  
+
   input[type=email]:hover {
     width: 100%;
   }
@@ -558,9 +593,8 @@ form ul li {
   textarea {
     transition: width 2s;
   }
-  
+
   textarea:hover {
     width: 100%;
   }
 }
-
