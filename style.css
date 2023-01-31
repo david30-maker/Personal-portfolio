@@ -178,7 +178,7 @@ form img {
   }
 
   to {
-    background: rgb(245, 215, 245)
+    background: rgb(245, 215, 245);
   }
 }
 
@@ -195,7 +195,6 @@ form img {
   border-radius: 8px;
   cursor: pointer;
 }
-
 
 .card-btn:hover {
   background-color: #2230d2;
@@ -228,7 +227,6 @@ form img {
 
 .about-section .card-btn {
   width: 190px;
-
 }
 
 .about-section .bio-section {
@@ -370,7 +368,7 @@ form textarea {
   margin-bottom: 15px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-left :auto;
+  margin-left: auto;
 }
 
 .form-button:hover {
@@ -448,15 +446,16 @@ form ul li {
     display: flex;
   }
 
-  .nav-links ol li {
+  /* .nav-links ol li {
     flex: 1;
-  }
+  } */
 
   .nav-links ol li {
     display: inline-block;
     text-align: center;
     padding: 0 10px 0;
     text-decoration: none;
+    flex: 1;
   }
 
   .nav-link {
@@ -479,17 +478,13 @@ form ul li {
     display: none;
   }
 
-  .desktop-card>div {
+  .desktop-card > div {
     width: 50%;
   }
 
-  .desktop-card>div:nth-child(2) {
+  .desktop-card > div:nth-child(2) {
     width: 50%;
     margin-left: 40px;
-  }
-
-  .desktop-card>div {
-    width: 50%;
   }
 
   .card-highlights {
@@ -566,7 +561,6 @@ form ul li {
     background-position-y: 10%, 14.9%, 98%, 97%, 50%;
     background-repeat: no-repeat;
   }
-
 
   .form-div {
     margin-top: 50px;
