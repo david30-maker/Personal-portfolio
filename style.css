@@ -430,6 +430,8 @@ form ul li {
 
   .nav-links ol li {
     flex: 1;
+    margin: left 10px;
+    padding: 10px;
   }
 
   .nav-links ol li a {
@@ -439,6 +441,7 @@ form ul li {
     text-decoration: none;
     font-size: 25px;
     font-weight: 700;
+    margin-right: 50%;
   }
 
   .nav-link {
