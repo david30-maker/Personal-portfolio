@@ -33,15 +33,15 @@ body {
 
 .logo {
   color: #6070ff;
-  width: 100px;
-  height: 24px;
-  padding-top: 10px;
+  width: 150px;
+  height: 20px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 800;
-  font-size: 24px;
+  font-weight: 1000;
+  font-size: 30px;
   line-height: 20px;
   text-align: center;
+  padding-top: 14px;
 }
 
 header {
@@ -98,6 +98,8 @@ header a {
   display: inline-block;
   margin: 10px 0;
   color: #6070ff;
+  font-size: 20px;
+  font-weight: 650;
 }
 
 .social-image {
@@ -164,31 +166,17 @@ form img {
   color: #6070ff;
   border-radius: 8px;
   border: none;
-  font-size: 16px;
-  font-weight: 800;
-  letter-spacing: 0.1rem;
-  animation-name: buttonChangeColor;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes buttonChangeColor {
-  from {
-    background: white;
-  }
-
-  to {
-    background: rgb(245, 215, 245);
-  }
+  font-size: 20px;
+  font-weight: 550;
 }
 
 .card-btn {
-  color: #7f8cff;
+  color:#6070ff;
   border: 1px solid #7f8cff;
-  width: 140px;
+  width: 150px;
   height: 40px;
-  font-weight: 800;
-  font-size: 17px;
+  font-weight: 700;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.03em;
   background-color: white;
@@ -212,6 +200,22 @@ form img {
   color: white;
 }
 
+.card-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.card-btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.card-btn:disabled {
+  background-color: #ebebff;
+  color: #5e6c84;
+  border: 1px solid #5e6c84;
+}
+
 .card-details-div div {
   margin-bottom: 15px;
 }
@@ -226,7 +230,9 @@ form img {
 }
 
 .about-section .card-btn {
-  width: 190px;
+  width: 200px;
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .about-section .bio-section {
@@ -360,7 +366,7 @@ form textarea {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-size: 20px;
-  font-weight: 750;
+  font-weight: 650;
   line-height: 24px;
   background-color: #fff;
   border: 1px solid #6070ff;
@@ -368,7 +374,7 @@ form textarea {
   margin-bottom: 15px;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-left: auto;
+  margin-right: 60%;
 }
 
 .form-button:hover {
@@ -446,23 +452,24 @@ form ul li {
     display: flex;
   }
 
-  /* .nav-links ol li {
+  .nav-links ol li {
     flex: 1;
   } */
 
-  .nav-links ol li {
+  .nav-links ol li a {
     display: inline-block;
     text-align: center;
     padding: 0 10px 0;
     text-decoration: none;
-    flex: 1;
+    font-size: 25px;
+    font-weight: 700;
   }
 
   .nav-link {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     color: #6070ff;
-    display: inline-block;
+    display: block;
   }
 
   .social-image {
