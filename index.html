@@ -15,21 +15,25 @@
 <body>
   <div class="section-1">
     <header>
-      <div class="logo">
-        <a href="#" class="logo">My Logo</a>
-      </div>
-      <nav>
-        <div class="icon-div desktop-hidden">
-          <a href="javascript:void(0);" class="icon desktop-hidden">
-            <i class="fa fa-bars"></i>
-          </a>
+      <nav class="nav-bar">
+        <div class="logo">
+          <a href="#" class="logo">My Logo</a>
         </div>
-        <div class="nav-links mobile-hidden">
-          <ol>
+        <div>
+          <ul class="nav-links">
             <li><a href="#" class="nav-link">Portfolio</a></li>
             <li><a href="#" class="nav-link">About</a></li>
             <li><a href="#" class="nav-link">Contact</a></li>
-          </ol>
+          </ul>
+        </div>
+
+        <div class="hamburger">
+          <!--<a href="javascript:void(0);" class="icon desktop-hidden">
+            <i class="fa fa-bars"></i>
+          </a> -->
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
       </nav>
     </header>
@@ -44,14 +48,17 @@
         </p>
         <a href="#"> LET'S CONNECT</a>
       </div>
-      <ul class="social-image">
-        <li><a href="https://twitter.com/@okpahdavid"><img src="images/twitter_1.png" alt="Twiiter logo"></a></li>
-        <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png"
-              alt="linkedin logo"></a></li>
-        <li><a href="#"><img src="images/medium.png" alt="medium logo"></a></li>
-        <li><a href="https://github.com/david30-maker"><img src="images/github1.png" alt="github logo"></a></li>
-        <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a></li>
-      </ul>
+      <div>
+        <ul class="social-image">
+          <li><a href="https://twitter.com/@okpahdavid"><img src="images/twitter_1.png" alt="Twiiter logo"></a></li>
+          <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png"
+                alt="linkedin logo"></a></li>
+          <li><a href="#"><img src="images/medium.png" alt="medium logo"></a></li>
+          <li><a href="https://github.com/david30-maker"><img src="images/github1.png" alt="github logo"></a></li>
+          <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a>
+          </li>
+        </ul>
+      </div>
     </section>
   </div>
 
@@ -275,38 +282,38 @@
   </div>
 
 
-   <div class="section-2 card desktop-card">
-  <div class="card-details-div">
-    <h2> Uber Navigation </h2>
-    <div class="card-highlights">
-      <p>Uber</p>
-      <img src="images/Counter_1.png" alt="photo of a circle">
-      <p> Lead Developer </p>
-      <img src="images/Counter_2.png" alt="photo of a circle">
-      <p>2015</p>
-      </ul>
+  <div class="section-2 card desktop-card">
+    <div class="card-details-div">
+      <h2> Uber Navigation </h2>
+      <div class="card-highlights">
+        <p>Uber</p>
+        <img src="images/Counter_1.png" alt="photo of a circle">
+        <p> Lead Developer </p>
+        <img src="images/Counter_2.png" alt="photo of a circle">
+        <p>2015</p>
+        </ul>
+      </div>
+      <div class="z-section-4">
+        A smart assistant to make driving more safe,
+        efficient, and fun by unlocking your most
+        expensive computer: your car.
+      </div>
+      <div class="">
+        <button class="card-tags">html</button>
+        <button class="card-tags"> Ruby on rails</button>
+        <button class="card-tags">css</button>
+        <button class="card-tags">javascript</button>
+      </div>
+      <div>
+        <button class="card-btn">See Project</button>
+      </div>
     </div>
-    <div class="z-section-4">
-      A smart assistant to make driving more safe,
-            efficient, and fun by unlocking your most
-            expensive computer: your car.
-    </div>
-    <div class="">
-      <button class="card-tags">html</button>
-      <button class="card-tags"> Ruby on rails</button>
-      <button class="card-tags">css</button>
-      <button class="card-tags">javascript</button>
-    </div>
-    <div>
-      <button class="card-btn">See Project</button>
+    <div class="card-img-div">
+      <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
     </div>
   </div>
-  <div class="card-img-div">
-    <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
-  </div>
-</div> 
 
-  
+
 
   <div class="about-section">
     <section class="bio-section">
@@ -321,8 +328,10 @@
       </div>
       <ul class="social-image">
         <li><a href="https://github.com/david30-maker"><img src="images/github1.png" alt="github logo"></a></li>
-        <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png" alt="linkedin logo"></a></li>
-         <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a></li>
+        <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png"
+              alt="linkedin logo"></a></li>
+        <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a>
+        </li>
         <li><a href="https://twitter.com/@okpahdavid"><img src="images/twitter_1.png" alt="Twiiter logo"></a></li>
         <li><a href="#"><img src="images/medium.png" alt="medium logo"></a></li>
       </ul>
@@ -385,18 +394,22 @@
     </div>
     <form action="https://formspree.io/f/xjvdgbkq" method="post">
       <ul>
-        <li><label> <input type="text" id="name" name="user_name" placeholder="Write your name here" maxlength="30" required>
-        </label></li>
-        <li><label> <input type="email" id="mail" name="user_email" placeholder="Write your email here" required></label></li>
+        <li><label> <input type="text" id="name" name="user_name" placeholder="Write your name here" maxlength="30"
+              required>
+          </label></li>
+        <li><label> <input type="email" id="mail" name="user_email" placeholder="Write your email here"
+              required></label></li>
         <li><textarea type="text" id="msg" name="user_message" rows="8" cols="50" placeholder="write your message here"
             maxlength="500" required></textarea></li>
       </ul>
       <div id="form-btn"><button type="submit" class="form-button">Get in touch</button></div>
-        <img src="images/Shape-1.png" alt="photo shape image">
+      <img src="images/Shape-1.png" alt="photo shape image">
     </form>
   </section>
 
 
+
+  <script src="/script.js"></script>
 </body>
 
 </html>
