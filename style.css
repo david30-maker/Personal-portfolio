@@ -98,7 +98,7 @@ nav ul li {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: #6070ff;
-}
+} 
 
 .mobile-hidden {
   display: none;
@@ -454,7 +454,7 @@ form ul li {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .nav-links {
+  /*.nav-links {
     position: fixed;
     left: -100%;
     top: 70px;
@@ -464,7 +464,7 @@ form ul li {
     width: 100%;
     text-align: center;
     transition: 0.3s;
-  }
+  }*/
 
   .nav-link {
     margin: 16px 0;
