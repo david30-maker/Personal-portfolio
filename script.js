@@ -7,10 +7,10 @@ ham.addEventListener("click", () => {
 })
 
 
-//document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
-//ham.classList.remove("active");
+document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click", () => {
+ham.classList.remove("active");
   menulinks.classList.remove("active");
-//}))
+}))
 
 
 
