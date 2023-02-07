@@ -13,24 +13,26 @@
 
 <body>
   <div class="section-1">
-         <header class="menu-wrap">
-        <nav class="logo">
-          <a href="#" class="brand">David</a>
-           <input type="checkbox" class="toggler" />
-          <div class="hamburger"><div></div></div>
-          <div class="menu">
-            <div class="overlay">
-              <div>
-                <ul>
-                  <li><a href="#works" class="nav-links">Portfolio</a></li>
-                  <li><a href="#about" class="nav-links">About</a></li>
-                  <li><a href="#contact" class="nav-links">Contact</a></li>
-                </ul>
-              </div>
+    <header class="menu-wrap">
+      <nav class="logo">
+        <a href="#" class="brand">David</a>
+        <input type="checkbox" class="toggler" id="toggle" onclick="toggle()"/>
+        <div class="hamburger">
+          <div></div>
+        </div>
+        <div class="menu">
+          <div class="overlay">
+            <div>
+              <ul>
+                <li  onclick="remove()"><a href="#works" class="nav-links">Portfolio</a></li>
+                <li  onclick="remove()"><a href="#about" class="nav-links">About</a></li>
+                <li  onclick="remove()"><a href="#contact" class="nav-links">Contact</a></li>
+              </ul>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+      </nav>
+    </header>
 
     <section class="bio-section">
       <div class="head-1">
@@ -87,7 +89,7 @@
         </div>
       </div>
     </div>
-    <div class="section-2 card desktop-card" id="section-2>
+    <div class="section-2 card desktop-card" id="section-2">
       <div class="card-img-div">
         <img src="images/Portfolio_4.png" alt="photo of flower">
       </div>
@@ -114,185 +116,185 @@
           <button class="card-btn">See Project</button>
         </div>
       </div>
-    
-    <!--section-2-->
-    <div class="section-2 card mobile-card">
-      <div class="card-img-div">
-        <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
-      </div>
-      <div class="card-details-div">
-        <h2>Multi-Post <br> Stories</h2>
-        <div class="card-highlights">
-          <p>CANOPY</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> Back End Dev</p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2015</p>
-          </ul>
-        </div>
-        <div>
-          A daily selection of privately
-          personalized reads; no accounts
-          or sign-ups required.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
-        </div>
-      </div>
     </div>
-    <div class="section-2 card desktop-card">
-      <div class="card-details-div">
-        <h2> Multi-Post <br> Stories </h2>
-        <div class="card-highlights">
-          <p>FACEBOOK</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> FULL STACK Dev</p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2015</p>
-          </ul>
+      <!--section-2-->
+      <div class="section-2 card mobile-card">
+        <div class="card-img-div">
+          <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
         </div>
-        <div>
-          Experimental content creation feature that allows
-          users to add to an existing story over the course of
-          a day without spamming their friends.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
-        </div>
-      </div>
-      <div class="card-img-div">
-        <img src="images/Portfolio_5.png" alt="photo of design with basket ball">
-      </div>
-    </div>
-    <!--section-3-->
-    <div class="section-2 card mobile-card">
-      <div class="card-img-div">
-        <img src="images/Portfolio_3.png" alt="photo of young lady doing exercise">
-      </div>
-      <div class="card-details-div">
-        <h2> Tonic </h2>
-        <div class="card-highlights">
-          <p>CANOPY</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> Back End Dev</p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2015</p>
-          </ul>
-        </div>
-        <div>
-          A daily selection of privately
-          personalized reads; no accounts
-          or sign-ups required.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
+        <div class="card-details-div">
+          <h2>Multi-Post <br> Stories</h2>
+          <div class="card-highlights">
+            <p>CANOPY</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> Back End Dev</p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2015</p>
+            </ul>
+          </div>
+          <div>
+            A daily selection of privately
+            personalized reads; no accounts
+            or sign-ups required.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="section-2 card desktop-card">
-      <div class="card-img-div">
-        <img src="images/Portfolio_1.png" alt="photo of young">
-      </div>
-      <div class="card-details-div">
-        <h2> Facebook 360 </h2>
-        <div class="card-highlights">
-          <p>FACEBOOK</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> Full Stack Dev</p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2018</p>
+      <div class="section-2 card desktop-card">
+        <div class="card-details-div">
+          <h2> Multi-Post <br> Stories </h2>
+          <div class="card-highlights">
+            <p>FACEBOOK</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> FULL STACK Dev</p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2015</p>
+            </ul>
+          </div>
+          <div>
+            Experimental content creation feature that allows
+            users to add to an existing story over the course of
+            a day without spamming their friends.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
         </div>
-        <div>
-          Exploring the future of media in Facebook's first
-          Virtual Reality app; a place to discover and enjoy
-          360 photos and videos on Gear VR.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags"> Ruby on rails</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
-        </div>
-      </div>
-    </div>
-    <!--section-4-->
-    <div class="section-2 card mobile-card">
-      <div class="card-img-div">
-        <img src="images/Portfolio_5.png" alt="photo of some designs with basket ball">
-      </div>
-      <div class="card-details-div">
-        <h2> Tonic </h2>
-        <div class="card-highlights">
-          <p>CANOPY</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> Back End Dev</p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2015</p>
-          </ul>
-        </div>
-        <div>
-          A daily selection of privately
-          personalized reads; no accounts
-          or sign-ups required.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
+        <div class="card-img-div">
+          <img src="images/Portfolio_5.png" alt="photo of design with basket ball">
         </div>
       </div>
-    </div>
-    <div class="section-2 card desktop-card">
-      <div class="card-details-div">
-        <h2> Uber Navigation </h2>
-        <div class="card-highlights">
-          <p>Uber</p>
-          <img src="images/Counter_1.png" alt="photo of a circle">
-          <p> Lead Developer </p>
-          <img src="images/Counter_2.png" alt="photo of a circle">
-          <p>2015</p>
-          </ul>
+      <!--section-3-->
+      <div class="section-2 card mobile-card">
+        <div class="card-img-div">
+          <img src="images/Portfolio_3.png" alt="photo of young lady doing exercise">
         </div>
-        <div class="z-section-4">
-          A smart assistant to make driving more safe,
-          efficient, and fun by unlocking your most
-          expensive computer: your car.
-        </div>
-        <div class="">
-          <button class="card-tags">html</button>
-          <button class="card-tags"> Ruby on rails</button>
-          <button class="card-tags">css</button>
-          <button class="card-tags">javascript</button>
-        </div>
-        <div>
-          <button class="card-btn">See Project</button>
+        <div class="card-details-div">
+          <h2> Tonic </h2>
+          <div class="card-highlights">
+            <p>CANOPY</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> Back End Dev</p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2015</p>
+            </ul>
+          </div>
+          <div>
+            A daily selection of privately
+            personalized reads; no accounts
+            or sign-ups required.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
         </div>
       </div>
-      <div class="card-img-div">
-        <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
+      <div class="section-2 card desktop-card">
+        <div class="card-img-div">
+          <img src="images/Portfolio_1.png" alt="photo of young">
+        </div>
+        <div class="card-details-div">
+          <h2> Facebook 360 </h2>
+          <div class="card-highlights">
+            <p>FACEBOOK</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> Full Stack Dev</p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2018</p>
+          </div>
+          <div>
+            Exploring the future of media in Facebook's first
+            Virtual Reality app; a place to discover and enjoy
+            360 photos and videos on Gear VR.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags"> Ruby on rails</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
+        </div>
       </div>
-    </div>
+      <!--section-4-->
+      <div class="section-2 card mobile-card">
+        <div class="card-img-div">
+          <img src="images/Portfolio_5.png" alt="photo of some designs with basket ball">
+        </div>
+        <div class="card-details-div">
+          <h2> Tonic </h2>
+          <div class="card-highlights">
+            <p>CANOPY</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> Back End Dev</p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2015</p>
+            </ul>
+          </div>
+          <div>
+            A daily selection of privately
+            personalized reads; no accounts
+            or sign-ups required.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
+        </div>
+      </div>
+      <div class="section-2 card desktop-card">
+        <div class="card-details-div">
+          <h2> Uber Navigation </h2>
+          <div class="card-highlights">
+            <p>Uber</p>
+            <img src="images/Counter_1.png" alt="photo of a circle">
+            <p> Lead Developer </p>
+            <img src="images/Counter_2.png" alt="photo of a circle">
+            <p>2015</p>
+            </ul>
+          </div>
+          <div class="z-section-4">
+            A smart assistant to make driving more safe,
+            efficient, and fun by unlocking your most
+            expensive computer: your car.
+          </div>
+          <div class="">
+            <button class="card-tags">html</button>
+            <button class="card-tags"> Ruby on rails</button>
+            <button class="card-tags">css</button>
+            <button class="card-tags">javascript</button>
+          </div>
+          <div>
+            <button class="card-btn">See Project</button>
+          </div>
+        </div>
+        <div class="card-img-div">
+          <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
+        </div>
+      </div>
   </section>
 
 
