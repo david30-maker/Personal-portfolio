@@ -1,5 +1,6 @@
 /* HEADER AND BODY */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -15,18 +16,53 @@ body {
 :root {
   --overlay-color: #6070ff;
 }
+
 .section-1 {
-  background-image: url(images/ellipse_3.png), url(images/Ellipse_4.png),
-    url(images/Ellipse_6.png), url(images/ellipse_11.png),
-    url(images/Rectangle_4.png), url(images/Rectangle_6.png),
-    url(images/Rectangle_5.png), url(images/Rectangle_7.png),
-    url(images/ellipse_12.png), url(images/Ellipse_8.png),
-    url(images/Ellipse_13.png), url(images/Ellipse_2.png),
-    url(images/ellipse_7.png), url(images/ellipse_5.png);
-  background-position-x: 116%, 71.9%, 6%, -4%, 107.5%, -8%, 67%, 30%, 87%, 85%,
-    86%, 70%, 14%, 29.8%;
-  background-position-y: 22%, 93%, 90%, 15%, 16.4%, 13%, 95%, 20%, 73%, 43%,
-    74.9%, 14%, 91%, 21%;
+  background-image:
+    url(images/ellipse_3.png),
+    url(images/Ellipse_4.png),
+    url(images/Ellipse_6.png),
+    url(images/ellipse_11.png),
+    url(images/Rectangle_4.png),
+    url(images/Rectangle_6.png),
+    url(images/Rectangle_5.png),
+    url(images/Rectangle_7.png),
+    url(images/ellipse_12.png),
+    url(images/Ellipse_8.png),
+    url(images/Ellipse_13.png),
+    url(images/Ellipse_2.png),
+    url(images/ellipse_7.png),
+    url(images/ellipse_5.png);
+  background-position-x:
+    116%,
+    71.9%,
+    6%,
+    -4%,
+    107.5%,
+    -8%,
+    67%,
+    30%,
+    87%,
+    85%,
+    86%,
+    70%,
+    14%,
+    29.8%;
+  background-position-y:
+    22%,
+    93%,
+    90%,
+    15%,
+    16.4%,
+    13%,
+    95%,
+    20%,
+    73%,
+    43%,
+    74.9%,
+    14%,
+    91%,
+    21%;
   background-repeat: no-repeat;
   background-color: white;
 }
@@ -52,6 +88,14 @@ body {
 .brand:hover {
   transform: rotate(360deg);
   transition: transform 0.4s ease-in-out;
+}
+
+.card-details-div div {
+  margin-bottom: 15px;
+}
+
+.language-div div:first-of-type {
+  margin-right: 15px;
 }
 
 .menu-wrap .toggler {
@@ -127,11 +171,30 @@ body {
   transition: opacity 0.4s ease;
 }
 
+form ul li {
+  list-style: none;
+}
+
+.nav-links ol li {
+  flex: 1;
+  margin: left 10px;
+  padding: 10px;
+}
+
 .menu-wrap .menu > div > div > ul > li {
   list-style: none;
   color: #fff;
   padding-bottom: 40px;
   padding-left: 24px;
+}
+
+.bio-section a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 1000;
+  display: inline-block;
+  margin: 10px 0;
+  color: #6070ff;
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -223,17 +286,6 @@ body {
   line-height: 28px;
 }
 
-.bio-section a {
-  text-decoration: none;
-  font-size: 24px;
-  font-weight: 1000;
-  display: inline-block;
-  margin: 10px 0;
-  color: #6070ff;
-  font-size: 20px;
-  font-weight: 650;
-}
-
 .social-image {
   display: flex;
   justify-content: space-between;
@@ -321,35 +373,15 @@ form img {
   color: white;
 }
 
-.card-btn:disabled {
-  background-color: white2;
-  color: silver;
-  border: 1px solid silver;
-}
-
-.card-btn:active {
-  background-color: #6070ff;
-  color: white;
-}
-
-.card-btn:hover {
-  background-color: #6070ff;
-  color: #fff;
-}
-
 .card-btn:active {
   background-color: #2230d2;
   color: #fff;
 }
 
 .card-btn:disabled {
-  background-color: #ebebff;
-  color: #5e6c84;
-  border: 1px solid #5e6c84;
-}
-
-.card-details-div div {
-  margin-bottom: 15px;
+  background-color: white2;
+  color: silver;
+  border: 1px solid silver;
 }
 
 .desktop-card {
@@ -396,10 +428,6 @@ form img {
   padding: 10px;
 }
 
-.language-div div:first-of-type {
-  margin-right: 15px;
-}
-
 #languages {
   width: 100%;
 }
@@ -412,7 +440,9 @@ form img {
   background: #6070ff;
   border-top-left-radius: 60px;
   margin-top: 30px;
-  background-image: url(images/Rectangle-4.png), url(images/Ellipse-3.png),
+  background-image:
+    url(images/Rectangle-4.png),
+    url(images/Ellipse-3.png),
     url(images/Ellipse-12.png);
   background-position-x: 100%, 100%, 43%;
   background-position-y: 5.3%, 8.3%, 9%;
@@ -521,10 +551,6 @@ form textarea {
   border: 1px solid #5e6c84;
 }
 
-form ul li {
-  list-style: none;
-}
-
 #form-btn {
   align-self: flex-start;
   margin-left: 17%;
@@ -564,17 +590,51 @@ form ul li {
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
   .section-1 {
-    background-image: url(images/ellipse_3.png), url(images/Ellipse_4.png),
-      url(images/Ellipse_6.png), url(images/ellipse_11.png),
-      url(images/Rectangle_4.png), url(images/Rectangle_6.png),
-      url(images/Rectangle_5.png), url(images/Rectangle-17.png),
-      url(images/ellipse_12.png), url(images/Ellipse_8.png),
-      url(images/Ellipse_13.png), url(images/Ellipse_2.png),
-      url(images/ellipse_7.png), url(images/ellipse_5.png);
-    background-position-x: 98%, 56%, 30%, 2%, 95%, 0.7%, 54%, 50%, 6%, 30%, 5%,
-      78%, 70%, 50%;
-    background-position-y: 22%, 88%, 15%, 15%, 16.6%, 12.8%, 90%, 19.8%, 90.1%,
-      15%, 91.9%, 76%, 15%, 21%;
+    background-image:
+      url(images/ellipse_3.png),
+      url(images/Ellipse_4.png),
+      url(images/Ellipse_6.png),
+      url(images/ellipse_11.png),
+      url(images/Rectangle_4.png),
+      url(images/Rectangle_6.png),
+      url(images/Rectangle_5.png),
+      url(images/Rectangle-17.png),
+      url(images/ellipse_12.png),
+      url(images/Ellipse_8.png),
+      url(images/Ellipse_13.png),
+      url(images/Ellipse_2.png),
+      url(images/ellipse_7.png),
+      url(images/ellipse_5.png);
+    background-position-x:
+      98%,
+      56%,
+      30%,
+      2%,
+      95%,
+      0.7%,
+      54%,
+      50%,
+      6%,
+      30%,
+      5%,
+      78%,
+      70%,
+      50%;
+    background-position-y:
+      22%,
+      88%,
+      15%,
+      15%,
+      16.6%,
+      12.8%,
+      90%,
+      19.8%,
+      90.1%,
+      15%,
+      91.9%,
+      76%,
+      15%,
+      21%;
     background-repeat: no-repeat;
     background-color: white;
     border-bottom-left-radius: 50px;
@@ -599,6 +659,10 @@ form ul li {
     transform: scale(1);
   }
 
+  .desktop-card > div {
+    width: 50%;
+  }
+
   .menu-wrap .menu > div {
     position: relative;
     margin-top: 25px;
@@ -611,6 +675,11 @@ form ul li {
     transform: scale(1);
     padding-top: 0;
     margin-right: 80px;
+  }
+
+  .desktop-card > div:nth-child(2) {
+    width: 50%;
+    margin-left: 40px;
   }
 
   .menu-wrap .menu > div > div {
@@ -628,6 +697,16 @@ form ul li {
     color: #344563;
     padding-bottom: 40px;
     padding-left: 24px;
+  }
+
+  .nav-links ol li a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px 0;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 50%;
   }
 
   .menu-wrap .menu > div > div > ul > li > a {
@@ -664,22 +743,6 @@ form ul li {
     display: flex;
   }
 
-  .nav-links ol li {
-    flex: 1;
-    margin: left 10px;
-    padding: 10px;
-  }
-
-  .nav-links ol li a {
-    display: inline-block;
-    text-align: center;
-    padding: 0 10px 0;
-    text-decoration: none;
-    font-size: 25px;
-    font-weight: 700;
-    margin-right: 50%;
-  }
-
   .nav-link {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -698,19 +761,6 @@ form ul li {
 
   .mobile-card {
     display: none;
-  }
-
-  .desktop-card > div {
-    width: 50%;
-  }
-
-  .desktop-card > div:nth-child(2) {
-    width: 50%;
-    margin-left: 40px;
-  }
-
-  .desktop-card > div {
-    width: 50%;
   }
 
   .card-highlights {
@@ -757,7 +807,9 @@ form ul li {
     background: #6070ff;
     border-top-left-radius: 60px;
     margin-top: 30px;
-    background-image: url(images/Rectangle-44.png), url(images/Ellipse-33.png),
+    background-image:
+      url(images/Rectangle-44.png),
+      url(images/Ellipse-33.png),
       url(images/Ellipse-12.png);
     background-position-x: 88%, 90%, 25%;
     background-position-y: 7.9%, 12%, 9%;
@@ -775,8 +827,11 @@ form ul li {
     height: 95%;
     margin-left: 20px;
     margin-top: 30px;
-    background-image: url(images/Rectangle-7.png), url(images/Ellipse-5.png),
-      url(images/Rectangle_6.png), url(images/Ellipse-22.png),
+    background-image:
+      url(images/Rectangle-7.png),
+      url(images/Ellipse-5.png),
+      url(images/Rectangle_6.png),
+      url(images/Ellipse-22.png),
       url(images/Ellipse-13.png);
     background-position-x: 10%, 10.4%, 20.5%, 22%, 75%;
     background-position-y: 10%, 14.9%, 98%, 97%, 50%;
