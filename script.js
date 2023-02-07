@@ -4,7 +4,7 @@ const intro = document.querySelector('.bio-section');
 const hamburger = document.querySelector('.hamburger');
 const works = document.querySelector('.works');
 const aboutMyself = document.querySelector('.about-section');
-
+const navlinks = document.querySelectorAll('.nav-links');
 checkbox.addEventListener('click', () => {
   brand.classList.toggle('blur');
   intro.classList.toggle('blur');
@@ -12,12 +12,12 @@ checkbox.addEventListener('click', () => {
   aboutMyself.classList.toggle('blur');
 
   navlinks.addEventListener('click', () => {
-    document.getElementsByClassName('toggler').checked = false;
+    document.querySelector('.toggler').checked = false;
     brand.classList.remove('blur');
     intro.classList.remove('blur');
     works.classList.remove('blur');
     aboutMyself.classList.remove('blur');
-    hamburger.style.position = 'fixed';
+    hamburger.style.position = 'absolute';
   });
 
   if (checkbox.checked) {
@@ -35,7 +35,7 @@ let w = 0;
 window.onresize = () => {
   w = window.innerWidth;
   if (w > 768) {
-    document.getElementsByClassName('toggler').checked = false;
+    document.querySelector('.toggler').checked = false;
     brand.classList.remove('blur');
     intro.classList.remove('blur');
     works.classList.remove('blur');
