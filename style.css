@@ -1,5 +1,5 @@
 /* HEADER AND BODY */
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -8,97 +8,193 @@
 
 body {
   background-color: #e5e5e5;
+  font-family: "Poppins", sans-serif;
 }
 
+:root {
+  --overlay-color: #6070ff;
+}
 .section-1 {
-  background-image:
-    url(images/ellipse_3.png),
-    url(images/Ellipse_4.png),
-    url(images/Ellipse_6.png),
-    url(images/ellipse_11.png),
-    url(images/Rectangle_4.png),
-    url(images/Rectangle_6.png),
-    url(images/Rectangle_5.png),
-    url(images/Rectangle_7.png),
-    url(images/ellipse_12.png),
-    url(images/Ellipse_8.png),
-    url(images/Ellipse_13.png),
-    url(images/Ellipse_2.png),
-    url(images/ellipse_7.png),
-    url(images/ellipse_5.png);
-  background-position-x: 116%, 71.9%, 6%, -4%, 107.5%, -8%, 67%, 30%, 87%, 85%, 86%, 70%, 14%, 29.8%;
-  background-position-y: 22%, 93%, 90%, 15%, 16.4%, 13%, 95%, 20%, 73%, 43%, 74.9%, 14%, 91%, 21%;
+  background-image: url(images/ellipse_3.png), url(images/Ellipse_4.png),
+    url(images/Ellipse_6.png), url(images/ellipse_11.png),
+    url(images/Rectangle_4.png), url(images/Rectangle_6.png),
+    url(images/Rectangle_5.png), url(images/Rectangle_7.png),
+    url(images/ellipse_12.png), url(images/Ellipse_8.png),
+    url(images/Ellipse_13.png), url(images/Ellipse_2.png),
+    url(images/ellipse_7.png), url(images/ellipse_5.png);
+  background-position-x: 116%, 71.9%, 6%, -4%, 107.5%, -8%, 67%, 30%, 87%, 85%,
+    86%, 70%, 14%, 29.8%;
+  background-position-y: 22%, 93%, 90%, 15%, 16.4%, 13%, 95%, 20%, 73%, 43%,
+    74.9%, 14%, 91%, 21%;
   background-repeat: no-repeat;
   background-color: white;
 }
 
-header {
-  box-shadow: 0 0.25px 8px 0 rgb(0, 0, 255, 0.2);
-  position: fixed;
-  width: 100%;
-}
-
 .logo {
-  color: #6070ff;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 1000;
-  font-size: 30px;
-  line-height: 20px;
-  text-decoration: none;
-}
-
-.nav-bar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0px 24px;
-  font-family: 'Poppins', sans-serif;
+  width: auto;
+}
+
+.brand {
+  margin-left: 24px;
+  margin-top: 25px;
   font-style: normal;
-  background-color: white;
-
-
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-
-.nav-link {
-  color: #6070ff;
-  list-style: none;
-  font-size: 24px;
   font-weight: 700;
-  transition: 0.5s ease;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--overlay-color);
+  text-align: center;
   text-decoration: none;
-
 }
 
-nav ul li {
-  list-style: none;
+.brand:hover {
+  transform: rotate(360deg);
+  transition: transform 0.4s ease-in-out;
 }
 
-.nav-link:hover {
-  color: #1a2eeb;
-}
-
-.hamburger {
-  display: none;
+.menu-wrap .toggler {
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  z-index: 4;
   cursor: pointer;
+  width: 50px;
+  height: 50px;
+  opacity: 0;
 }
 
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: #6070ff;
-} 
+.menu-wrap .hamburger {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 3;
+  width: 60px;
+  height: 60px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  z-index: 2;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-wrap .menu > div {
+  background: var(--overlay-color);
+  width: 200vw;
+  height: 200vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  transform: scale(0);
+  padding-top: 106px;
+  transition: margin-right 0.4s ease;
+}
+
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 2px;
+  background: var(--overlay-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+}
+
+.menu-wrap .menu > div > div {
+  max-width: 90vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none;
+  color: #fff;
+  padding-bottom: 40px;
+  padding-left: 24px;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.4s ease;
+  height: 24px;
+}
+
+/* Hamburger Lines - Top & Bottom */
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.menu-wrap .hamburger > div::after {
+  top: 10px;
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div::before,
+.menu-wrap .toggler:checked + .hamburger > div::after {
+  top: 0;
+  transform: rotate(90deg);
+  background: #fff;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+  background: #fff;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: var(--menu-speed);
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition: opacity 0.4s ease 0.4s;
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* Show Menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+  opacity: 0.85;
+}
 
 .mobile-hidden {
   display: none;
@@ -315,9 +411,7 @@ form img {
   background: #6070ff;
   border-top-left-radius: 60px;
   margin-top: 30px;
-  background-image:
-    url(images/Rectangle-4.png),
-    url(images/Ellipse-3.png),
+  background-image: url(images/Rectangle-4.png), url(images/Ellipse-3.png),
     url(images/Ellipse-12.png);
   background-position-x: 100%, 100%, 43%;
   background-position-y: 5.3%, 8.3%, 9%;
@@ -359,9 +453,7 @@ form {
   height: 95%;
   margin-left: 20px;
   margin-top: 30px;
-  background-image:
-    url(images/Rectangle-7.png),
-    url(images/Ellipse-5.png);
+  background-image: url(images/Rectangle-7.png), url(images/Ellipse-5.png);
   background-position-x: 73%, 70%;
   background-position-y: 83%, 83%;
   background-repeat: no-repeat;
@@ -398,7 +490,7 @@ form textarea {
   margin-top: 10px;
   width: 150px;
   height: 45px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 650;
@@ -437,7 +529,7 @@ form ul li {
   margin-left: 17%;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
   }
@@ -454,18 +546,9 @@ form ul li {
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .nav-links {
-    position: fixed;
-    left: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: white;
-    color: #6070ff;
-  
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
+  .blur {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
   }
 
   .nav-link {
@@ -475,35 +558,84 @@ form ul li {
   .nav-links.active {
     left: 0;
   }
-
 }
-
-
-
 
 /* DESKTOP */
 @media only screen and (min-width: 768px) {
   .section-1 {
-    background-image:
-      url(images/ellipse_3.png),
-      url(images/Ellipse_4.png),
-      url(images/Ellipse_6.png),
-      url(images/ellipse_11.png),
-      url(images/Rectangle_4.png),
-      url(images/Rectangle_6.png),
-      url(images/Rectangle_5.png),
-      url(images/Rectangle-17.png),
-      url(images/ellipse_12.png),
-      url(images/Ellipse_8.png),
-      url(images/Ellipse_13.png),
-      url(images/Ellipse_2.png),
-      url(images/ellipse_7.png),
-      url(images/ellipse_5.png);
-    background-position-x: 98%, 56%, 30%, 2%, 95%, 0.7%, 54%, 50%, 6%, 30%, 5%, 78%, 70%, 50%;
-    background-position-y: 22%, 88%, 15%, 15%, 16.6%, 12.8%, 90%, 19.8%, 90.1%, 15%, 91.9%, 76%, 15%, 21%;
+    background-image: url(images/ellipse_3.png), url(images/Ellipse_4.png),
+      url(images/Ellipse_6.png), url(images/ellipse_11.png),
+      url(images/Rectangle_4.png), url(images/Rectangle_6.png),
+      url(images/Rectangle_5.png), url(images/Rectangle-17.png),
+      url(images/ellipse_12.png), url(images/Ellipse_8.png),
+      url(images/Ellipse_13.png), url(images/Ellipse_2.png),
+      url(images/ellipse_7.png), url(images/ellipse_5.png);
+    background-position-x: 98%, 56%, 30%, 2%, 95%, 0.7%, 54%, 50%, 6%, 30%, 5%,
+      78%, 70%, 50%;
+    background-position-y: 22%, 88%, 15%, 15%, 16.6%, 12.8%, 90%, 19.8%, 90.1%,
+      15%, 91.9%, 76%, 15%, 21%;
     background-repeat: no-repeat;
     background-color: white;
     border-bottom-left-radius: 50px;
+  }
+
+  .toggler {
+    display: none;
+  }
+
+  .menu-wrap .hamburger {
+    display: none;
+  }
+
+  .menu-wrap .menu {
+    position: relative;
+    width: 100%;
+    height: auto;
+    visibility: visible;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 2;
+    transform: scale(1);
+  }
+
+  .menu-wrap .menu > div {
+    position: relative;
+    margin-top: 25px;
+    background: none;
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transform: scale(1);
+    padding-top: 0;
+    margin-right: 80px;
+  }
+
+  .menu-wrap .menu > div > div {
+    max-width: 90vw;
+    max-height: 100vh;
+    opacity: 1;
+  }
+
+  .menu-wrap .menu > div > div > ul {
+    display: flex;
+  }
+
+  .menu-wrap .menu > div > div > ul > li {
+    list-style: none;
+    color: #344563;
+    padding-bottom: 40px;
+    padding-left: 24px;
+  }
+
+  .menu-wrap .menu > div > div > ul > li > a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    text-decoration: none;
+    height: 24px;
   }
 
   .desktop-hidden {
@@ -567,16 +699,16 @@ form ul li {
     display: none;
   }
 
-  .desktop-card>div {
+  .desktop-card > div {
     width: 50%;
   }
 
-  .desktop-card>div:nth-child(2) {
+  .desktop-card > div:nth-child(2) {
     width: 50%;
     margin-left: 40px;
   }
 
-  .desktop-card>div {
+  .desktop-card > div {
     width: 50%;
   }
 
@@ -624,9 +756,7 @@ form ul li {
     background: #6070ff;
     border-top-left-radius: 60px;
     margin-top: 30px;
-    background-image:
-      url(images/Rectangle-44.png),
-      url(images/Ellipse-33.png),
+    background-image: url(images/Rectangle-44.png), url(images/Ellipse-33.png),
       url(images/Ellipse-12.png);
     background-position-x: 88%, 90%, 25%;
     background-position-y: 7.9%, 12%, 9%;
@@ -644,17 +774,13 @@ form ul li {
     height: 95%;
     margin-left: 20px;
     margin-top: 30px;
-    background-image:
-      url(images/Rectangle-7.png),
-      url(images/Ellipse-5.png),
-      url(images/Rectangle_6.png),
-      url(images/Ellipse-22.png),
+    background-image: url(images/Rectangle-7.png), url(images/Ellipse-5.png),
+      url(images/Rectangle_6.png), url(images/Ellipse-22.png),
       url(images/Ellipse-13.png);
     background-position-x: 10%, 10.4%, 20.5%, 22%, 75%;
     background-position-y: 10%, 14.9%, 98%, 97%, 50%;
     background-repeat: no-repeat;
   }
-
 
   .form-div {
     margin-top: 50px;
