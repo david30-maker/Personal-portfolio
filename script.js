@@ -4,6 +4,7 @@ const intro = document.querySelector('.intro');
 const hamburger = document.querySelector('.hamburger');
 const works = document.querySelector('.works');
 const aboutMyself = document.querySelector('.about_myself');
+const navLinks = document.querySelectorAll('.nav-links');
 
 function remove() {
   document.getElementById('toggle').checked = false;
@@ -34,3 +35,5 @@ window.onresize = () => {
     toggle();
   }
 };
+
+navLinks.forEach((link) => link.addEventListener('click', remove));
