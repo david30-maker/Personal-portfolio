@@ -1,10 +1,10 @@
 const brand = document.querySelector('.brand');
 const checkbox = document.querySelector('.toggler');
-const intro = document.querySelector('.bio-section');
+const intro = document.querySelector('.intro-center');
 const hamburger = document.querySelector('.hamburger');
 const works = document.querySelector('.works');
-const aboutMyself = document.querySelector('.about-section');
-const form = document.querySelector('.section-form');
+const aboutMyself = document.querySelector('.about_myself');
+const form = document.querySelector('.contact_form');
 const navLinks = document.querySelectorAll('.nav-links');
 
 function remove() {
@@ -35,7 +35,7 @@ let w = 0;
 window.onresize = () => {
   w = window.innerWidth;
   if (w > 768) {
-    toggle();
+    remove();
   }
 };
 
