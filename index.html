@@ -2,401 +2,289 @@
 <html lang="en">
 
 <head>
-  <title> DavidI Igbo | Portfolio </title>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" media="(min-width:451px)" href="tablet.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>David Igbo | Portfolio</title>
 </head>
 
 <body>
-  <div class="section-1">
-    <header>
-      <div class="logo">
-        <a href="#" class="logo">My Logo</a>
-      </div>
-      <nav>
-        <div class="icon-div desktop-hidden">
-          <a href="javascript:void(0);" class="icon desktop-hidden">
-            <i class="fa fa-bars"></i>
-          </a>
+  <section class="wrapper">
+    <div class="main-menu">
+    <header class="menu-wrap">
+      <nav class="logo">
+        <a href="#" class="brand">David Igbo</a>
+        <input type="checkbox" class="toggler" id="toggle" onclick="toggle()" />
+        <div class="hamburger">
+          <div></div>
         </div>
-        <div class="nav-links mobile-hidden">
-          <ol>
-            <li><a href="#" class="nav-link">Portfolio</a></li>
-            <li><a href="#" class="nav-link">About</a></li>
-            <li><a href="#" class="nav-link">Contact</a></li>
-          </ol>
+        <div class="menu">
+          <div class="overlay">
+            <div>
+              <ul>
+                <li><a href="#works" class="nav-links">Portfolio</a></li>
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+              </ul>
+              </div>
+          </div>
         </div>
       </nav>
     </header>
+  </div>
 
-    <section class="bio-section">
-      <div class="head-1">
-        <h1> I'm David <br>Glad to see you!</h1>
-        <p> I’m a software developer! I can help you build a product,
-          feature or website Look through some of my
-          work and experience! If you like what you see and have a project you need
-          coded, don’t hestiate to contact me.
+
+    <section class="intro-center" id="first-intro">
+      <div class="intro">
+        <h1 class="pb branding">
+          I'm David Igbo,
+          <br />
+          Glad to See you!
+        </h1>
+        <p class="pb introduction">
+          I am a software developer! I can help you build a product, feature or
+          website look through some of your work and experience! If you like
+          what you see and have a project you need coded, don't hesitate to
+          contact me.
         </p>
-        <a href="#"> LET'S CONNECT</a>
-      </div>
-      <ul class="social-image">
-        <li><a href="https://twitter.com/@okpahdavid"><img src="images/twitter_1.png" alt="Twiiter logo"></a></li>
-        <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png"
-              alt="linkedin logo"></a></li>
-        <li><a href="#"><img src="images/medium.png" alt="medium logo"></a></li>
-        <li><a href="https://github.com/david30-maker"><img src="images/github1.png" alt="github logo"></a></li>
-        <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a></li>
-      </ul>
-    </section>
-  </div>
-
-  <!--section-1-->
-
-  <div class="section-2 card mobile-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_1.png" alt="photo of youg man">
-    </div>
-    <div class="card-details-div">
-      <h2> Tonic </h2>
-      <div class="card-highlights">
-        <p>CANOPY</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Back End Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
-      </div>
-      <div>
-        A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="section-2 card desktop-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_4.png" alt="photo of flower">
-    </div>
-    <div class="card-details-div">
-      <h2> Tonic </h2>
-      <div class="card-highlights">
-        <p>CANOPY</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Back End Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
-      </div>
-      <div>
-        A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-  <!--section-2-->
-
-  <div class="section-2 card mobile-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
-    </div>
-    <div class="card-details-div">
-      <h2>Multi-Post <br> Stories</h2>
-      <div class="card-highlights">
-        <p>CANOPY</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Back End Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
+        <a class="pb connect">LET'S CONNECT</a>
+        <p class="pb">
+        <ul>
+          <li>
+            <a class="icons" href="https://twitter.com/@okpahdavid">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="icons" href="https://github.com/david30-maker">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="icons" href="https://www.linkedin.com/in/david-igbo-464196184">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a class="icons" href="https://venture.angellist.com/v/begin">
+              <ion-icon name="-angellist.outline"></ion-icon>
+            </a>
+          </li>
         </ul>
-      </div>
-      <div>
-        A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="section-2 card desktop-card">
-    <div class="card-details-div">
-      <h2> Multi-Post <br> Stories </h2>
-      <div class="card-highlights">
-        <p>FACEBOOK</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> FULL STACK Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
-        </ul>
-      </div>
-      <div>
-        Experimental content creation feature that allows
-        users to add to an existing story over the course of
-        a day without spamming their friends.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-    <div class="card-img-div">
-      <img src="images/Portfolio_5.png" alt="photo of design with basket ball">
-    </div>
-  </div>
-
-  <!--section-3-->
-
-  <div class="section-2 card mobile-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_3.png" alt="photo of young lady doing exercise">
-    </div>
-    <div class="card-details-div">
-      <h2> Tonic </h2>
-      <div class="card-highlights">
-        <p>CANOPY</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Back End Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
-        </ul>
-      </div>
-      <div>
-        A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="section-2 card desktop-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_1.png" alt="photo of young">
-    </div>
-    <div class="card-details-div">
-      <h2> Facebook 360 </h2>
-      <div class="card-highlights">
-        <p>FACEBOOK</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Full Stack Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2018</p>
-      </div>
-      <div>
-        Exploring the future of media in Facebook's first
-        Virtual Reality app; a place to discover and enjoy
-        360 photos and videos on Gear VR.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags"> Ruby on rails</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-  <!--section-4-->
-
-  <div class="section-2 card mobile-card">
-    <div class="card-img-div">
-      <img src="images/Portfolio_5.png" alt="photo of some designs with basket ball">
-    </div>
-    <div class="card-details-div">
-      <h2> Tonic </h2>
-      <div class="card-highlights">
-        <p>CANOPY</p>
-        <img src="images/Counter_1.png" alt="photo of a circle">
-        <p> Back End Dev</p>
-        <img src="images/Counter_2.png" alt="photo of a circle">
-        <p>2015</p>
-        </ul>
-      </div>
-      <div>
-        A daily selection of privately
-        personalized reads; no accounts
-        or sign-ups required.
-      </div>
-      <div class="">
-        <button class="card-tags">html</button>
-        <button class="card-tags">css</button>
-        <button class="card-tags">javascript</button>
-      </div>
-      <div>
-        <button class="card-btn">See Project</button>
-      </div>
-    </div>
-  </div>
-
-
-   <div class="section-2 card desktop-card">
-  <div class="card-details-div">
-    <h2> Uber Navigation </h2>
-    <div class="card-highlights">
-      <p>Uber</p>
-      <img src="images/Counter_1.png" alt="photo of a circle">
-      <p> Lead Developer </p>
-      <img src="images/Counter_2.png" alt="photo of a circle">
-      <p>2015</p>
-      </ul>
-    </div>
-    <div class="z-section-4">
-      A smart assistant to make driving more safe,
-            efficient, and fun by unlocking your most
-            expensive computer: your car.
-    </div>
-    <div class="">
-      <button class="card-tags">html</button>
-      <button class="card-tags"> Ruby on rails</button>
-      <button class="card-tags">css</button>
-      <button class="card-tags">javascript</button>
-    </div>
-    <div>
-      <button class="card-btn">See Project</button>
-    </div>
-  </div>
-  <div class="card-img-div">
-    <img src="images/Portfolio_2.png" alt="photo of list of menu with young lady">
-  </div>
-</div> 
-
-  
-
-  <div class="about-section">
-    <section class="bio-section">
-      <div class="head-1">
-        <h4> About <br>Myself</h4>
-        <p> I’m a software developer! I can help you build a product,
-          feature or website Look through some of my
-          work and experience! If you like what you see and
-          have a project you need coded, don’t hestiate to contact me.
         </p>
-        <a href="#"> LET'S CONNECT</a>
       </div>
-      <ul class="social-image">
-        <li><a href="https://github.com/david30-maker"><img src="images/github1.png" alt="github logo"></a></li>
-        <li><a href="https://www.linkedin.com/in/david-igbo-464196184"><img src="images/Linkedin_1.png" alt="linkedin logo"></a></li>
-         <li><a href="https://venture.angellist.com/v/begin"><img src="images/angellist.png" alt="angellist logo"></a></li>
-        <li><a href="https://twitter.com/@okpahdavid"><img src="images/twitter_1.png" alt="Twiiter logo"></a></li>
-        <li><a href="#"><img src="images/medium.png" alt="medium logo"></a></li>
-      </ul>
-      <div><button class="card-btn"> Get my resume </button></div>
     </section>
 
-    <section class="skills-section">
-      <div class="skill">
-        <div id="languages">
-          <h3>Languages</h3>
-          <div id="lo">
-            <div class="language-div">
-              <div>
-                <img src="images/Ellipse-23.png" alt="javascrpt logo">
-              </div>
-              <div>
-                JavaScript
-              </div>
-            </div>
-            <div class="language-div">
-              <div>
-                <img src="images/Ellipse_22.png" alt="html logo">
-              </div>
-              <div>
-                HTML
-              </div>
-            </div>
-            <div class="language-div">
-              <div>
-                <img src="images/Ellipse_21.png" alt="css logo">
-              </div>
-              <div>
-                CSS
-              </div>
-            </div>
+    <!--NEW WORK-->
+
+    <section id="works" class="works">
+      <div class="card">
+        <header>
+          <img class="portfolio" src="images/Portfolio_1.png" alt="Portfolio">
+        </header>
+        <div class="card_body">
+          <h2 class="title">Tonic</h2>
+          <div class="experience">
+            <span class="subtitle">Canopy</span>
+            <ul class="block">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
           </div>
+          <p class="content">A daily selection of privately personalized reads; no accounts or
+            sign-ups required
+          </p>
+          <ul class="skills">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button class="button"> See project </button>
         </div>
-        <div><i class="fa fa-angle-down"></i></div>
       </div>
-      <div class="skill">
-        <h3>Frameworks</h3>
-        <div>❯</div>
+      <div class="card">
+        <header class="flip1">
+          <img class="portfolio" src="images/Portfolio_2.png" alt="Portfolio">
+        </header>
+        <div class="card_body flip2">
+          <h2 class="title-1">Tonic</h2>
+          <div class="experience">
+            <span class="subtitle">Canopy</span>
+            <ul class="block">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="content">A daily selection of privately personalized reads; no accounts or
+            sign-ups required
+          </p>
+          <ul class="skills">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button class="button"> See project </button>
+        </div>
       </div>
-      <div class="skill">
-        <h3>Skills</h3>
-        <div>❯</div>
+      <div class="card">
+        <header>
+          <img class="portfolio" src="images/Portfolio_3.png" alt="Portfolio">
+        </header>
+        <div class="card_body">
+          <h2 class="title">Tonic</h2>
+          <div class="experience">
+            <span class="subtitle">Canopy</span>
+            <ul class="block">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="content">A daily selection of privately personalized reads; no accounts or
+            sign-ups required
+          </p>
+          <ul class="skills">
+            <li>html</li>
+            <li>css</li>
+            <li>javascript</li>
+          </ul>
+          <button class="button"> See project </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <header class="flip1">
+          <img class="portfolio" src="images/portfolio_5.png" alt="Portfolio">
+        </header>
+        <div class="card_body flip2">
+          <h2 class="title-1">Tonic</h2>
+          <div class="experience">
+            <span class="subtitle">Canopy</span>
+            <ul class="block">
+              <li>Back End Dev</li>
+              <li>2015</li>
+            </ul>
+          </div>
+          <p class="content">A daily selection of privately personalized reads; no accounts or
+            sign-ups required
+          </p>
+          <ul class="skills">
+            <li>html</li>
+            <li>css</li>
+            <li>Ruby on rails</li>
+            <li>javascript</li>
+          </ul>
+          <button class="button"> See project </button>
+        </div>
       </div>
     </section>
-  </div>
 
 
-  <!--form section-deskto-->
-  <section class="section-form">
-    <div class="form-div">
-      <h3>Contact me</h3>
-      <p>If you have an application you are
-        interested in developing,
-        a feature that you need built or a project that
-        needs coding. I’d love to help with it </p>
-    </div>
-    <form action="https://formspree.io/f/xjvdgbkq" method="post">
-      <ul>
-        <li><label> <input type="text" id="name" name="user_name" placeholder="Write your name here" maxlength="30" required>
-        </label></li>
-        <li><label> <input type="email" id="mail" name="user_email" placeholder="Write your email here" required></label></li>
-        <li><textarea type="text" id="msg" name="user_message" rows="8" cols="50" placeholder="write your message here"
-            maxlength="500" required></textarea></li>
-      </ul>
-      <div id="form-btn"><button type="submit" class="form-button">Get in touch</button></div>
-        <img src="images/Shape-1.png" alt="photo shape image">
-    </form>
+    <!---NEW WORK SECTION-->
+    <section id="about" class="about_myself">
+      <div class="intro top desktop-intro">
+        <div class="ml-25">
+          <h2 class="pb branding">
+            About
+            <br />
+            Myself
+          </h2>
+          <p class="pb introduction">
+            Hello I am a software developer! I can help you build a product, feature or
+            website look through some of your work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
+          </p>
+          <a href="#" class="pb connect">LET'S CONNECT</a>
+          <ul class="pb">
+            <li>
+              <a class="icons" href="https://twitter.com/@okpahdavid">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://github.com/david30-maker">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://www.linkedin.com/in/david-igbo-464196184">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://venture.angellist.com/v/begin">
+                <ion-icon name="-angellist.outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+          <button class="button button1">Get my resume</button>
+        </div>
+        <div class="show-skills">
+          <ul class="showcase">
+            <li class="mt-45">
+              <div class="display-flex pl-12">
+                <span>Language</span>
+                <ion-icon class="arrow" name="chevron-down-outline"></ion-icon>
+              </div>
+              <ul class="language pl-12">
+                <li class="lang">
+                  <img class="w-48" src="images/Ellipse-23.png" alt="Javascript">
+                  <span>Javascript</span>
+                </li>
+                <li class="lang">
+                  <img class="w-48" src="images/Ellipse_22.png" alt="HTML">
+                  <span>HTML</span>
+                </li>
+                <li class="lang">
+                  <img class="w-48" src="images/Ellipse_21.png" alt="CSS">
+                  <span>CSS</span>
+                </li>
+              </ul>
+            </li>
+            <li class="display-flex mt-36">
+              <span class="pl-12">Frameworks</span>
+              <ion-icon class="arrow inactive" name="chevron-down-outline"></ion-icon>
+            </li>
+            <li>
+              <div class="line"></div>
+            </li>
+            <li class="display-flex mt-36">
+              <span class="pl-12">Skills</span>
+              <ion-icon class="arrow inactive" name="chevron-down-outline"></ion-icon>
+            </li>
+            <li>
+              <div class="line"></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <section id="contact" class="contact_form">
+        <div class="center">
+          <h2 class="contactme">Contact me</h2>
+          <p class="hook">If you have an application you are interested in developing,
+            a feature that you need built or a project that needs coding. I'd
+            love to help with it.
+          </p>
+        </div>
+        <form action="https://formspree.io/f/xjvdgbkq" method="post">
+        <div class="center">
+          <input type="text" placeholder="Enter your name"><br>
+          <input type="text" placeholder="Enter your email"><br>
+          <textarea placeholder="Write your message here" name="message" id="message" cols="30"
+            rows="10"></textarea><br>
+          <button class="button ">Get in Touch</button>
+        </div>
+        </form>
+      </section>
+    </section>
   </section>
-
-
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
