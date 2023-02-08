@@ -5,6 +5,8 @@ const hamburger = document.querySelector('.hamburger');
 const works = document.querySelector('.works');
 const aboutMyself = document.querySelector('.about-section');
 const form = document.querySelector('.section-form');
+const navLinks = document.querySelectorAll('.nav-links');
+
 function remove() {
   document.getElementById('toggle').checked = false;
   brand.classList.remove('blur');
@@ -36,3 +38,5 @@ window.onresize = () => {
     toggle();
   }
 };
+
+navLinks.forEach((link) => link.addEventListener('click', remove));
