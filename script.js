@@ -35,7 +35,7 @@ let w = 0;
 window.onresize = () => {
   w = window.innerWidth;
   if (w > 768) {
-    remove();
+    toggle();
   }
 };
 

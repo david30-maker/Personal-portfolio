@@ -296,10 +296,11 @@ body {
 }
 
 .intro {
-  margin-top: 114px;
+  margin-top: 160px;
   margin-left: 24px;
   margin-right: 24px;
-  width: 327px;
+  width: 375px;
+  height: 600px;
 }
 
 .branding {
@@ -332,8 +333,8 @@ body {
 }
 
 .blur {
-  filter: blur(6px);
   -webkit-filter: blur(6px);
+  filter: blur(10px);
 }
 
 .intro ul {
