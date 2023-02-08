@@ -1,26 +1,28 @@
 const brand = document.querySelector('.brand');
-const checkbox = document.querySelector('.toggle');
-const intro = document.querySelector('.intro');
+const checkbox = document.querySelector('.toggler');
+const intro = document.querySelector('.bio-section');
 const hamburger = document.querySelector('.hamburger');
 const works = document.querySelector('.works');
-const aboutMyself = document.querySelector('.about_myself');
-
+const aboutMyself = document.querySelector('.about-section');
+const form = document.querySelector('.section-form');
 function remove() {
   document.getElementById('toggle').checked = false;
   brand.classList.remove('blur');
   intro.classList.remove('blur');
   works.classList.remove('blur');
   aboutMyself.classList.remove('blur');
+  form.classList.remove('blur');
   hamburger.style.position = 'absolute';
 }
 
 function toggle() {
   if (checkbox.checked) {
     hamburger.style.position = 'fixed';
-    brand.classList.toggle('blur');
-    intro.classList.toggle('blur');
-    works.classList.toggle('blur');
-    aboutMyself.classList.toggle('blur');
+    brand.classList.add('blur');
+    intro.classList.add('blur');
+    works.classList.add('blur');
+    aboutMyself.classList.add('blur');
+    form.classList.add('blur');
   } else {
     hamburger.style.position = 'absolute';
     remove();
