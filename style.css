@@ -1,5 +1,3 @@
-/* NEW WORKS ON CSS */
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
@@ -93,56 +91,6 @@ body {
   z-index: 2;
 }
 
-.intro-center {
-  background-image:
-    url(images/ellipse_3.png),
-    url(images/Ellipse_4.png),
-    url(images/Ellipse_6.png),
-    url(images/ellipse_11.png),
-    url(images/Rectangle_4.png),
-    url(images/Rectangle_6.png),
-    url(images/Rectangle_5.png),
-    url(images/Rectangle_7.png),
-    url(images/ellipse_12.png),
-    url(images/Ellipse_8.png),
-    url(images/Ellipse_13.png),
-    url(images/Ellipse_2.png),
-    url(images/ellipse_7.png),
-    url(images/ellipse_5.png);
-  background-position-x:
-    112%,
-    71.9%,
-    6%,
-    -2%,
-    105%,
-    1%,
-    67%,
-    60%,
-    86%,
-    85%,
-    84%,
-    70%,
-    14%,
-    58%;
-  background-position-y:
-    5%,
-    93%,
-    90%,
-    -4%,
-    -5%,
-    -8%,
-    95%,
-    0%,
-    70%,
-    43%,
-    73%,
-    14%,
-    91%,
-    1%;
-  background-repeat: no-repeat;
-  background-color: white;
-}
-
 .display-flex {
   display: flex;
   justify-content: space-between;
@@ -214,6 +162,22 @@ body {
 
 .block li {
   margin: 0 12px;
+}
+
+.modal-exp li {
+  margin-right: 32px;
+}
+
+.modal-skills li {
+  margin-right: 20px;
+  align-items: center;
+  padding: 4px 12px;
+  background: #ebebff;
+  border-radius: 8px;
+}
+
+.modal-buttons a {
+  text-decoration: none;
 }
 
 .menu-wrap .menu > div > div > ul > li {
@@ -291,16 +255,11 @@ body {
   margin-top: 12px;
 }
 
-.remove {
-  transform: scale(0);
-}
-
 .intro {
-  margin-top: 160px;
+  margin-top: 114px;
   margin-left: 24px;
   margin-right: 24px;
-  width: 375px;
-  height: 600px;
+  width: 327px;
 }
 
 .branding {
@@ -333,8 +292,8 @@ body {
 }
 
 .blur {
+  filter: blur(6px);
   -webkit-filter: blur(6px);
-  filter: blur(10px);
 }
 
 .intro ul {
@@ -366,7 +325,7 @@ body {
 }
 
 .portfolio:hover {
-  transform: scale(1.05);
+  transform: scale(1.02);
   transition-duration: var(--menu-speed);
 }
 
@@ -497,9 +456,8 @@ button[disabled] {
 }
 
 .about_myself {
-  /* min-width: 375px; */
-
-  /* height: 1263px; */
+  min-width: 375px;
+  height: 1263px;
   border-radius: 0 70px 0 0;
   background: #fff;
 }
@@ -556,14 +514,13 @@ button[disabled] {
   position: relative;
   top: 95px;
   min-width: 375px;
-  background: #6070ff;
+  background: url(/img/contact_bg.png) no-repeat #6070ff;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   border-radius: 60px 0 0 0;
-  margin-top: 85%;
 }
 
 .contactme {
@@ -588,8 +545,14 @@ input::-webkit-input-placeholder {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  color: #172b4d;
+  color: #b2bac5;
   padding-left: 16px;
+}
+
+input[type='text'],
+textarea {
+  padding-left: 10px;
+  box-sizing: border-box;
 }
 
 textarea::-webkit-input-placeholder {
@@ -626,6 +589,166 @@ textarea::-webkit-input-placeholder {
 
 .inactive {
   transform: rotate(-90deg);
+}
+
+.modal {
+  position: fixed;
+  top: 5%;
+  left: 2%;
+  right: 3%;
+  bottom: 6%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border-radius: 1.6rem;
+  z-index: 10;
+  background-color: #fff;
+  min-width: 375px;
+  height: 712px;
+}
+
+.modal.active {
+  transform: scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#modal-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  padding-top: 18px;
+}
+
+.modal-body .modal-exp {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+  display: flex;
+  padding-top: 22px;
+}
+
+.canopy {
+  color: #344563;
+  list-style-type: none;
+}
+
+.modal-body .portfolio {
+  width: 311px;
+  height: 220px;
+  margin-top: 20px;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 2rem;
+  color: #7a869a;
+}
+
+.modal-body {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.modal-body p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.modal-body .modal-skills {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  list-style-type: none;
+  display: flex;
+  margin-top: 15px;
+}
+
+.modal-buttons {
+  display: flex;
+  margin-bottom: 34px;
+}
+
+.modal-buttons .button {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: auto;
+}
+
+.bmr-14 {
+  margin-right: 14px;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+.modal-buttons .button img {
+  width: 16px;
+  height: 16px;
+  margin-top: 0;
+}
+
+.modal-buttons .button:hover > p {
+  color: white;
+  background-color: #6070ff;
+}
+
+.modal-buttons .button:hover > img {
+  filter: brightness(0) invert(1);
+}
+
+.modal-buttons .button:hover {
+  cursor: pointer;
+}
+
+.modal-buttons .github {
+  font-size: 20px;
+}
+
+#overlayModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+}
+
+.no-outline:focus {
+  outline: none;
+}
+
+#overlayModal.active {
+  opacity: 1;
+  background-color: #c1c7d0;
+  pointer-events: none;
+}
+
+#error {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  display: none;
+  border-radius: 5px;
 }
 
 @media screen and (min-width: 768px) {
@@ -894,67 +1017,26 @@ textarea::-webkit-input-placeholder {
     font-size: 18px;
     line-height: 24px;
   }
+
+  .modal {
+    height: calc(100vh - 10px);
+  }
+
+  .modal-body .portfolio {
+    min-width: 655px;
+    height: 350px;
+    margin-bottom: 50px;
+  }
+
+  .modal-buttons .button {
+    margin-top: 35px;
+  }
 }
 
-@media screen and (min-width: 1042px) {
+@media screen and (min-width: 1200px) {
   .intro {
     margin-top: 142px;
     min-width: 920px;
-  }
-  header {
-    box-shadow: 0 0.25px 8px 0 rgb(0, 0, 255, 0.2);
-    position: fixed;
-    width: 100%;
-  }
-  .intro-center {
-    background-image:
-      url(images/ellipse_3.png),
-      url(images/Ellipse_4.png),
-      url(images/Ellipse_6.png),
-      url(images/ellipse_11.png),
-      url(images/Rectangle_4.png),
-      url(images/Rectangle_6.png),
-      url(images/Rectangle_5.png),
-      url(images/Rectangle-17.png),
-      url(images/ellipse_12.png),
-      url(images/Ellipse_8.png),
-      url(images/Ellipse_13.png),
-      url(images/Ellipse_2.png),
-      url(images/ellipse_7.png),
-      url(images/ellipse_5.png);
-    background-position-x:
-      98%,
-      56%,
-      30%,
-      2%,
-      95%,
-      0.7%,
-      54%,
-      50%,
-      6%,
-      30%,
-      5%,
-      78%,
-      70%,
-      50%;
-    background-position-y:
-      22%,
-      88%,
-      15%,
-      15%,
-      16.6%,
-      12.8%,
-      90%,
-      19.8%,
-      90.1%,
-      15%,
-      91.9%,
-      76%,
-      15%,
-      21%;
-    background-repeat: no-repeat;
-    background-color: white;
-    border-bottom-left-radius: 50px;
   }
 
   .desktop-intro {
@@ -981,61 +1063,65 @@ textarea::-webkit-input-placeholder {
   .portfolio {
     height: 448px;
   }
+
+  .modal {
+    min-width: 1156px;
+    height: 1163px;
+    top: 8%;
+    left: 2%;
+    right: 5%;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .modal-body {
+    margin-left: 42px;
+  }
+
+  .modal-body .portfolio {
+    min-width: 1108px;
+    height: 586px;
+  }
+
+  .project-wrapper {
+    display: flex;
+  }
+
+  .description {
+    min-width: 800px;
+    height: 382px;
+    margin-right: 20px;
+  }
+
+  .modal-body button {
+    width: 124px;
+  }
+
+  .wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+  }
+
+  .modal-header {
+    display: flex;
+  }
 }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+@media screen and (min-width: 1400px) {
+  .modal {
+    min-width: 1156px;
+    height: 1163px;
+    top: 8%;
+    left: 16%;
+    right: 17%;
+    bottom: 0%;
+    overflow: hidden;
+    position: absolute;
   }
-  
-  /* Modal Content */
-  .modal-content {
-    position: relative;
-  background-color: #fefefe;
-  margin: auto;
-  padding: 0;
-  border: 1px solid #888;
-  width: 80%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
-  animation-name: animatetop;
-  animation-duration: 0.4s;
-  }
-  
-/* Add Animation */
-@-webkit-keyframes animatetop {
-    from {top:-300px; opacity:0} 
-    to {top:0; opacity:1}
-  }
-  
-  @keyframes animatetop {
-    from {top:-300px; opacity:0}
-    to {top:0; opacity:1}
-  }
-  
 
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    margin-left: 80%;
-    font-size: 28px;
-    font-weight: bold;
+  .modal-body {
+    margin-left: 32px;
   }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+}

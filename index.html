@@ -1,299 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" type="text/css" />
-  <title>David Igbo | Portfolio</title>
-</head>
-
-<body>
-  <section class="wrapper">
-    <div class="main-menu">
-    <header class="menu-wrap">
-      <nav class="logo">
-        <a href="#" class="brand">David Igbo</a>
-        <input type="checkbox" class="toggler" id="toggle" onclick="toggle()" />
-        <div class="hamburger">
-          <div></div>
-        </div>
-        <div class="menu">
-          <div class="overlay">
-            <div>
-              <ul>
-                <li><a href="#works" class="nav-links">Portfolio</a></li>
-                <li><a href="#about" class="nav-links">About</a></li>
-                <li><a href="#contact" class="nav-links">Contact</a></li>
-              </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Document</title>
+  </head>
+  <body>
+      <section id="modal" class="modal"></section>
+    <section class="wrapper">
+      <header class="menu-wrap">
+        <nav class="logo">
+          <a href="#" class="brand">Saw Mon Han</a>
+           <input type="checkbox" class="toggler" id="toggle" onclick="toggle()"/>
+          <div class="hamburger"><div></div></div>
+          <div class="menu">
+            <div class="overlay">
+              <div>
+                <ul>
+                  <li><a href="#works" class="nav-links" >Portfolio</a></li>
+                  <li><a href="#about" class="nav-links">About</a></li>
+                  <li><a href="#contact"  class="nav-links">Contact</a></li>
+                </ul>
               </div>
+            </div>
           </div>
-        </div>
-      </nav>
-    </header>
-  </div>
-
-
-    <section class="intro-center" id="first-intro">
-      <div class="intro">
-        <h1 class="pb branding">
-          I'm David Igbo,
-          <br />
-          Glad to See you!
-        </h1>
-        <p class="pb introduction">
-          I am a software developer! I can help you build a product, feature or
-          website look through some of your work and experience! If you like
-          what you see and have a project you need coded, don't hesitate to
-          contact me.
-        </p>
-        <a class="pb connect">LET'S CONNECT</a>
-        <p class="pb">
-        <ul>
-          <li>
-            <a class="icons" href="https://twitter.com/@okpahdavid">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a class="icons" href="https://github.com/david30-maker">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a class="icons" href="https://www.linkedin.com/in/david-igbo-464196184">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-          <li>
-            <a class="icons" href="https://venture.angellist.com/v/begin">
-              <ion-icon name="-angellist.outline"></ion-icon>
-            </a>
-          </li>
-        </ul>
-        </p>
-      </div>
-    </section>
-
-    <!--NEW WORK-->
-<section class="works" id="works">
- 
-</section>
-
-
-<!--modal
-  <section id="works" class="works">
-    <div id="myModal" class="modal">
-    <div class="card" class="modal-content">
-      <span class="close">&times;</span>
-      <h2 class="title">Tonic</h2>
-      <div class="experience">
-          <span class="subtitle">Canopy</span>
-          <ul class="block">
-            <li>Back End Dev</li>
-            <li>2015</li>
-          </ul>
-        </div>
-      <header>
-        <img class="portfolio" src="images/Portfolio_1.png" alt="Portfolio">
+        </nav>
       </header>
-      <div class="card_body">
-        <p class="content">A daily selection of privately personalized reads; no accounts or
-          sign-ups required
-        </p>
-        <ul class="skills">
-          <li>html</li>
-          <li>css</li>
-          <li>javascript</li>
-        </ul>
-      </div>
-        <button class="button" id="myBtn"> See project <a class="icons" href="https://github.com/david30-maker">
-          <ion-icon name="logo-github"></ion-icon>
-        </a></button>
-      </div>
-    </div>
-  modal end here
-
-  
-
-      <div id="myModal" class="modal">
-      <div class="card" class="modal-content">
-        <header>
-          <img class="portfolio" src="images/Portfolio_1.png" alt="Portfolio">
-        </header>
-        <div class="card_body">
-          <span class="close">&times;</span>
-          <h2 class="title">Tonic</h2>
-          <div class="experience">
-            <span class="subtitle">Canopy</span>
-            <ul class="block">
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p class="content">A daily selection of privately personalized reads; no accounts or
-            sign-ups required
+      <section class="intro-center">
+        <div class="intro">
+          <h1 class="pb branding">
+            I'm Saw Mon,
+            <br />
+            Glad to See you!
+          </h1>
+          <p class="pb introduction">
+            I am a software developer! I can help you build a product, feature or
+            website look through some of your work and experience! If you like
+            what you see and have a project you need coded, don't hesitate to
+            contact me.
           </p>
-          <ul class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="button"> See project </button>
-        </div>
-      </div>
-    </div>
-
-
-<div id="myModal" class="modal">
-  <div class="card" class="modal-content">
-        <header class="flip1">
-          <img class="portfolio" src="images/Portfolio_2.png" alt="Portfolio">
-        </header>
-        <div class="card_body flip2">
-          <span class="close">&times;</span>
-          <h2 class="title-1">Portal</h2>
-          <div class="experience">
-            <span class="subtitle">Canopy</span>
-            <ul class="block">
-              <li>Back End Dev</li>
-              <li>2015</li>
+          <a class="pb connect">LET'S CONNECT</a>
+          <p class="pb">
+            <ul>
+            <li>
+              <a class="icons" href="mailto:sawmon71293@gmail.com">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://twitter.com/sawmon34268255">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://github.com/sawmon71293">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a class="icons" href="https://www.linkedin.com/in/saw-mon-han/">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
             </ul>
-          </div>
-          <p class="content">A daily selection of privately personalized reads; no accounts or
-            sign-ups required
           </p>
-          <ul class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="button"> See project </button>
         </div>
-      </div>
-    </div>
-
-      <div id="myModal" class="modal">
-     <div class="card" class="modal-content">
-        <header>
-          <img class="portfolio" src="images/Portfolio_3.png" alt="Portfolio">
-        </header>
-        <div class="card_body">
-          <span class="close">&times;</span>
-          <h2 class="title">Music Studio</h2>
-          <div class="experience">
-            <span class="subtitle">Canopy</span>
-            <ul class="block">
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p class="content">A daily selection of privately personalized reads; no accounts or
-            sign-ups required
-          </p>
-          <ul class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>javascript</li>
-          </ul>
-          <button class="button"> See project </button>
-        </div>
-      </div>
-    </div>
-
-
-
-
-     
-      <div class="card">
-        <header class="flip1">
-          <img class="portfolio" src="images/portfolio_4.png" alt="Portfolio">
-        </header>
-        <div class="card_body flip2">
-          <span class="close">&times;</span>
-          <h2 class="title-1">Portal</h2>
-          <div class="experience">
-            <span class="subtitle">Canopy</span>
-            <ul class="block">
-              <li>Back End Dev</li>
-              <li>2015</li>
-            </ul>
-          </div>
-          <p class="content">A daily selection of privately personalized reads; no accounts or
-            sign-ups required
-          </p>
-          <ul class="skills">
-            <li>html</li>
-            <li>css</li>
-            <li>Ruby on rails</li>
-            <li>javascript</li>
-          </ul>
-          <button class="button"> See project </button>
-        </div>
-      </div>
-    </div>
-    </section> -->
-
-
-    <!---NEW WORK SECTION-->
+      </section>
+    </section>
+    <section  id="works" class="works">
+    </section>
     <section id="about" class="about_myself">
       <div class="intro top desktop-intro">
         <div class="ml-25">
           <h2 class="pb branding">
             About
             <br />
-            Myself
+           Myself
           </h2>
           <p class="pb introduction">
-            Hello I am a software developer! I can help you build a product, feature or
+           Hello I am a software developer! I can help you build a product, feature or
             website look through some of your work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
           <a href="#" class="pb connect">LET'S CONNECT</a>
-          <ul class="pb">
+            <ul class="pb">
             <li>
-              <a class="icons" href="https://twitter.com/@okpahdavid">
+              <a class="icons" href="mailto:sawmon71293@gmail.com">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+            <li>
+              
+              <a class="icons" href="https://twitter.com/sawmon34268255">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </li>
             <li>
-              <a class="icons" href="https://github.com/david30-maker">
+              <a class="icons" href="https://github.com/sawmon71293">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
             </li>
             <li>
-              <a class="icons" href="https://www.linkedin.com/in/david-igbo-464196184">
+              <a class="icons" href="https://www.linkedin.com/in/saw-mon-han/">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
             </li>
-            <li>
-              <a class="icons" href="https://venture.angellist.com/v/begin">
-                <ion-icon name="-angellist.outline"></ion-icon>
-              </a>
-            </li>
-          </ul>
+            </ul>
           <button class="button button1">Get my resume</button>
         </div>
         <div class="show-skills">
           <ul class="showcase">
             <li class="mt-45">
               <div class="display-flex pl-12">
-                <span>Language</span>
+                 <span>Language</span>
                 <ion-icon class="arrow" name="chevron-down-outline"></ion-icon>
               </div>
               <ul class="language pl-12">
                 <li class="lang">
-                  <img class="w-48" src="images/Ellipse-23.png" alt="Javascript">
-                  <span>Javascript</span>
-                </li>
+                  <img class="w-48" src="img/js.png" alt="Javascript">
+                  <span>Javascript</span></li>
                 <li class="lang">
-                  <img class="w-48" src="images/Ellipse_22.png" alt="HTML">
+                  <img class="w-48" src="img/html.png" alt="HTML">
                   <span>HTML</span>
                 </li>
                 <li class="lang">
-                  <img class="w-48" src="images/Ellipse_21.png" alt="CSS">
+                  <img class="w-48" src="img/css.png" alt="CSS">
                   <span>CSS</span>
                 </li>
               </ul>
@@ -302,45 +136,45 @@
               <span class="pl-12">Frameworks</span>
               <ion-icon class="arrow inactive" name="chevron-down-outline"></ion-icon>
             </li>
-            <li>
-              <div class="line"></div>
-            </li>
+           <li><div class="line"></div></li>
             <li class="display-flex mt-36">
               <span class="pl-12">Skills</span>
               <ion-icon class="arrow inactive" name="chevron-down-outline"></ion-icon>
             </li>
-            <li>
-              <div class="line"></div>
-            </li>
+            <li><div class="line"></div></li>
           </ul>
         </div>
       </div>
-
-      <section id="contact" class="contact_form">
-        <div class="center">
-          <h2 class="contactme">Contact me</h2>
-          <p class="hook">If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding. I'd
-            love to help with it.
-          </p>
-        </div>
-        <form action="https://formspree.io/f/xjvdgbkq" method="post">
-        <div class="center">
-          <input type="text" placeholder="Enter your name"><br>
-          <input type="text" placeholder="Enter your email"><br>
-          <textarea placeholder="Write your message here" name="message" id="message" cols="30"
-            rows="10"></textarea><br>
-          <button class="button ">Get in Touch</button>
-        </div>
+       <section id="contact" class="contact_form">
+      <div class="center">
+        <h2 class="contactme">Contact me</h2>
+        <p class="hook">If you have an application you are interested in developing,
+          a feature that you need built or a project that needs coding. I'd
+          love to help with it.
+        </p>
+      </div>
+      <div  class="center">
+        <form>
+          <input type="text" placeholder="Yeremias" id="name" class="no-outline"><br>
+          <input type="email" placeholder="natajayanj14@gmail.com" id="email" class="no-outline"><br>
+          <textarea placeholder="Write your message here" id="message" name="message" id="message" cols="30" rows="10" class="no-outline"></textarea><br>
+          <div id="error"></div>
+          <button type="button" id="submit" class="button ">Get in Touch</button>
         </form>
-      </section>
+      </div>
     </section>
-  </section>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <script src="script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
-    crossorigin="anonymous"></script>
-</body>
-
+    </section>
+   
+     <div id="overlayModal"></div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  </body>
 </html>
