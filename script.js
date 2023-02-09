@@ -139,8 +139,8 @@ window.onload = () => {
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit. ',
       featureImage: 'portfolio_4.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
-      liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
-      sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
+      liveLink: 'https://david30-maker.github.io/application-deploy/',
+      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
   ];
   projects.forEach((project, index) => {
@@ -176,7 +176,7 @@ window.onload = () => {
               <ul class="modal-skills" id="modal-skills">
               </ul>
               <div class="modal-buttons">
-                <a href="${project.liveLink}"><button class="button mr12"><p class="bmr-14">See Live</p> <img  src="img/Icon.png" alt="live icon"></button></a>
+                <a href="${project.liveLink}"><button class="button mr12"><p class="bmr-14">See Live</p> <img  src="images/icon.png" alt="live icon"></button></a>
                 <a href="${project.sourceLink}"><button class="button"><p class="bmr-14">See Source</p> <ion-icon class="github"  name="logo-github"></ion-icon></button></a>
               </div>
             </div>
@@ -208,54 +208,3 @@ window.onload = () => {
     });
   });
 };
-
-// form validation
-function validation() {
-  const email = document.getElementById('email').value;
-  const errorMessage = document.getElementById('error');
-  errorMessage.style.display = 'block';
-  if (email !== String(email).toLowerCase()) {
-    const text = 'Please enter a valid email!';
-    errorMessage.innerText = text;
-    errorMessage.style.background = 'red';
-    errorMessage.style.color = 'black';
-  } else {
-    errorMessage.innerText = 'The form is sent';
-    errorMessage.style.background = 'green';
-    errorMessage.style.color = 'white';
-  }
-}
-
-//  save objects to LocalStorage
-
-const form = document.querySelector('form');
-const formEls = ['input[type=text]', 'input[type=email]', 'textarea'];
-
-function getAllFormEls() {
-  const els = formEls.map((el) => Array.from(form.querySelectorAll(el)));
-  return els.flat();
-}
-
-function persistForm() {
-  const els = getAllFormEls();
-  els.forEach((el) => {
-    el.addEventListener('change', () => {
-      localStorage.setItem(el.name, el.value);
-    });
-  });
-}
-
-function restoreForm() {
-  const els = getAllFormEls();
-  els.forEach((el) => {
-    el.value = localStorage.getItem(el.name);
-  });
-}
-
-restoreForm();
-persistForm();
-
-const submit = document.getElementById('submit');
-submit.addEventListener('click', () => {
-  validation();
-});
