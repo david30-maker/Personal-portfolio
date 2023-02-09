@@ -44,7 +44,7 @@ function openModal(modal) {
   window.scrollTo(0, 0);
   overlayModal.classList.add('active');
   navLinks.forEach((link) => {
-    link.style.color = '#c1c7d0';
+    link.style.color = '#6070ff';
   });
 }
 
@@ -56,7 +56,7 @@ function closeModal(modal) {
   overlayModal.classList.remove('active');
   navLinks.forEach((link) => {
     if (w > 768) {
-      link.style.color = '#344563';
+      link.style.color = '#6070ff';
     } else {
       link.style.color = '#fff';
     }
@@ -208,3 +208,54 @@ window.onload = () => {
     });
   });
 };
+
+// form validation
+function validation() {
+  const email = document.getElementById('email').value;
+  const errorMessage = document.getElementById('error');
+  errorMessage.style.display = 'block';
+  if (email !== String(email).toLowerCase()) {
+    const text = 'Please enter a valid email!';
+    errorMessage.innerText = text;
+    errorMessage.style.background = 'red';
+    errorMessage.style.color = 'black';
+  } else {
+    errorMessage.innerText = 'The form is sent';
+    errorMessage.style.background = 'green';
+    errorMessage.style.color = 'white';
+  }
+}
+
+//  save objects to LocalStorage
+
+const form = document.querySelector('form');
+const formEls = ['input[type=text]', 'input[type=email]', 'textarea'];
+
+function getAllFormEls() {
+  const els = formEls.map((el) => Array.from(form.querySelectorAll(el)));
+  return els.flat();
+}
+
+function persistForm() {
+  const els = getAllFormEls();
+  els.forEach((el) => {
+    el.addEventListener('change', () => {
+      localStorage.setItem(el.name, el.value);
+    });
+  });
+}
+
+function restoreForm() {
+  const els = getAllFormEls();
+  els.forEach((el) => {
+    el.value = localStorage.getItem(el.name);
+  });
+}
+
+restoreForm();
+persistForm();
+
+const submit = document.getElementById('submit');
+submit.addEventListener('click', () => {
+  validation();
+});
