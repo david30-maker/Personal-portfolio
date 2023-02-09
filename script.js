@@ -67,7 +67,7 @@ function createCard(project, index) {
   const dataStr = encodeURIComponent(JSON.stringify(project));
   const projectTemplate = `<div class="card">
         <header id="header_${(index += 1)}" >
-          <img class="portfolio" src="./img/${project.featureImage}" 
+          <img class="portfolio" src="./images/${project.featureImage}" 
           alt="Portfolio">
          </header>
          <div class="card_body cb_${index}">
@@ -110,7 +110,7 @@ window.onload = () => {
       name: 'Library',
       description:
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit.',
-      featureImage: 'portfolio1.png',
+      featureImage: 'portfolio_1.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
       sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
@@ -119,7 +119,7 @@ window.onload = () => {
       name: 'Job Agency',
       description:
         'A daily selection of privately personalized readsr sit amet consectetur adipisicing elit.',
-      featureImage: 'portfolio2.png',
+      featureImage: 'portfolio_2.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
       sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
@@ -128,7 +128,7 @@ window.onload = () => {
       name: 'Songs Library',
       description:
         'A daily selection of privately personalized reads dolor sit amet consectetur adipisicing elit. ',
-      featureImage: 'portfolio3.png',
+      featureImage: 'portfolio_3.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
       sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
@@ -137,7 +137,7 @@ window.onload = () => {
       name: 'Portal',
       description:
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit. ',
-      featureImage: 'portfolio4.png',
+      featureImage: 'portfolio_4.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
       sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
@@ -166,7 +166,7 @@ window.onload = () => {
             <li>Back End Dev</li>
             <li>2015</li>
           </ul>
-          <img class="portfolio" src="./img/${project.featureImage}" alt="Portfolio">
+          <img class="portfolio" src="./images/${project.featureImage}" alt="Portfolio">
           <div class="project-wrapper">
             <div class="description">
               <p>${project.description}
