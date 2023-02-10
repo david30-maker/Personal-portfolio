@@ -210,6 +210,7 @@ window.onload = () => {
 };
 
 // form validation
+
 function validation() {
   const email = document.getElementById('email').value;
   const errorMessage = document.getElementById('error');
@@ -223,8 +224,8 @@ function validation() {
     errorMessage.innerText = 'The form is sent';
     errorMessage.style.background = 'green';
     errorMessage.style.color = 'white';
-  }
-}
+  } 
+} 
 
 //  save objects to LocalStorage
 
