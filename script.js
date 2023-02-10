@@ -210,6 +210,7 @@ window.onload = () => {
 };
 
 // form validation
+
 function validation() {
   const email = document.getElementById('email').value;
   const errorMessage = document.getElementById('error');
