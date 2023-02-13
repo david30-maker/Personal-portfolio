@@ -25,9 +25,54 @@ body {
 .wrapper {
   min-width: 375px;
   height: 718px;
-  background: url(img/bg.png) no-repeat white;
-  background-size: cover;
+  background-image:
+    url(images/ellipse_3.png),
+    url(images/Ellipse_4.png),
+    url(images/Ellipse_6.png),
+    url(images/ellipse_11.png),
+    url(images/Rectangle_4.png),
+    url(images/Rectangle_6.png),
+    url(images/Rectangle_5.png),
+    url(images/Rectangle_7.png),
+    url(images/ellipse_12.png),
+    url(images/Ellipse_8.png),
+    url(images/Ellipse_13.png),
+    url(images/Ellipse_2.png),
+    url(images/ellipse_7.png),
+    url(images/ellipse_5.png);
+  background-position-x:
+    116%,
+    71.9%,
+    6%,
+    -4%,
+    107.5%,
+    -8%,
+    67%,
+    30%,
+    87%,
+    85%,
+    86%,
+    70%,
+    14%,
+    29.8%;
+  background-position-y:
+    -5%,
+    93%,
+    90%,
+    15%,
+    16.4%,
+    13%,
+    95%,
+    20%,
+    73%,
+    43%,
+    74.9%,
+    14%,
+    91%,
+    21%;
+  background-repeat: no-repeat;
   border-radius: 0 0 0 50px;
+  background-color: white;
 }
 
 /* Start of menu */
@@ -113,7 +158,7 @@ body {
   margin-bottom: 36px;
 }
 
-.menu-wrap .menu > div {
+.menu-wrap .menu>div {
   background: var(--overlay-color);
   width: 200vw;
   height: 400vw;
@@ -126,7 +171,7 @@ body {
 }
 
 /* Hamburger Line */
-.menu-wrap .hamburger > div {
+.menu-wrap .hamburger>div {
   position: relative;
   flex: none;
   width: 100%;
@@ -138,61 +183,11 @@ body {
   transition: all 0.4s ease;
 }
 
-.menu-wrap .menu > div > div {
+.menu-wrap .menu>div>div {
   max-width: 90vw;
   max-height: 100vh;
   opacity: 0;
   transition: opacity 0.4s ease;
-}
-
-.intro-8 {
-  background-image:
-    url(images/ellipse_3.png),
-    url(images/Ellipse_4.png),
-    url(images/Ellipse_6.png),
-    url(images/ellipse_11.png),
-    url(images/Rectangle_4.png),
-    url(images/Rectangle_6.png),
-    url(images/Rectangle_5.png),
-    url(images/Rectangle_7.png),
-    url(images/ellipse_12.png),
-    url(images/Ellipse_8.png),
-    url(images/Ellipse_13.png),
-    url(images/Ellipse_2.png),
-    url(images/ellipse_7.png),
-    url(images/ellipse_5.png);
-  background-position-x:
-    116%,
-    71.9%,
-    6%,
-    -4%,
-    107.5%,
-    -8%,
-    67%,
-    30%,
-    87%,
-    85%,
-    86%,
-    70%,
-    14%,
-    29.8%;
-  background-position-y:
-    -5%,
-    93%,
-    90%,
-    15%,
-    16.4%,
-    13%,
-    95%,
-    20%,
-    73%,
-    43%,
-    74.9%,
-    14%,
-    91%,
-    21%;
-  background-repeat: no-repeat;
-  background-color: white;
 }
 
 .intro li {
@@ -230,14 +225,14 @@ body {
   text-decoration: none;
 }
 
-.menu-wrap .menu > div > div > ul > li {
+.menu-wrap .menu>div>div>ul>li {
   list-style: none;
   color: #fff;
   padding-bottom: 40px;
   padding-left: 24px;
 }
 
-.menu-wrap .menu > div > div > ul > li > a {
+.menu-wrap .menu>div>div>ul>li>a {
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -249,8 +244,8 @@ body {
 }
 
 /* Hamburger Lines - Top & Bottom */
-.menu-wrap .hamburger > div::before,
-.menu-wrap .hamburger > div::after {
+.menu-wrap .hamburger>div::before,
+.menu-wrap .hamburger>div::after {
   content: '';
   position: absolute;
   z-index: 1;
@@ -261,41 +256,41 @@ body {
 }
 
 /* Moves Line Down */
-.menu-wrap .hamburger > div::after {
+.menu-wrap .hamburger>div::after {
   top: 10px;
 }
 
 /* Turns Lines Into X */
-.menu-wrap .toggler:checked + .hamburger > div::before,
-.menu-wrap .toggler:checked + .hamburger > div::after {
+.menu-wrap .toggler:checked+.hamburger>div::before,
+.menu-wrap .toggler:checked+.hamburger>div::after {
   top: 0;
   transform: rotate(90deg);
   background: #fff;
 }
 
 /* Toggler Animation */
-.menu-wrap .toggler:checked + .hamburger > div {
+.menu-wrap .toggler:checked+.hamburger>div {
   transform: rotate(135deg);
   background: #fff;
 }
 
-.menu-wrap .toggler:checked ~ .menu > div {
+.menu-wrap .toggler:checked~.menu>div {
   transform: scale(1);
   transition-duration: var(--menu-speed);
 }
 
-.menu-wrap .toggler:checked ~ .menu > div > div {
+.menu-wrap .toggler:checked~.menu>div>div {
   opacity: 1;
   transition: opacity 0.4s ease 0.4s;
 }
 
 /* Rotate On Hover When Checked */
-.menu-wrap .toggler:checked:hover + .hamburger > div {
+.menu-wrap .toggler:checked:hover+.hamburger>div {
   transform: rotate(225deg);
 }
 
 /* Show Menu */
-.menu-wrap .toggler:checked ~ .menu {
+.menu-wrap .toggler:checked~.menu {
   visibility: visible;
   opacity: 0.85;
 }
@@ -758,12 +753,12 @@ textarea::-webkit-input-placeholder {
   margin-top: 0;
 }
 
-.modal-buttons .button:hover > p {
+.modal-buttons .button:hover>p {
   color: white;
   background-color: #6070ff;
 }
 
-.modal-buttons .button:hover > img {
+.modal-buttons .button:hover>img {
   filter: brightness(0) invert(1);
 }
 
@@ -930,7 +925,7 @@ textarea::-webkit-input-placeholder {
     transform: scale(1);
   }
 
-  .menu-wrap .menu > div {
+  .menu-wrap .menu>div {
     position: relative;
     margin-top: 25px;
     background: none;
@@ -944,13 +939,13 @@ textarea::-webkit-input-placeholder {
     margin-right: 80px;
   }
 
-  .menu-wrap .menu > div > div {
+  .menu-wrap .menu>div>div {
     max-width: 90vw;
     max-height: 100vh;
     opacity: 1;
   }
 
-  .menu-wrap .menu > div > div > ul {
+  .menu-wrap .menu>div>div>ul {
     display: flex;
   }
 
@@ -963,14 +958,14 @@ textarea::-webkit-input-placeholder {
     margin-right: 32px;
   }
 
-  .menu-wrap .menu > div > div > ul > li {
+  .menu-wrap .menu>div>div>ul>li {
     list-style: none;
     color: #344563;
     padding-bottom: 40px;
     padding-left: 24px;
   }
 
-  .menu-wrap .menu > div > div > ul > li > a {
+  .menu-wrap .menu>div>div>ul>li>a {
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
@@ -1157,7 +1152,7 @@ textarea::-webkit-input-placeholder {
     width: 40%;
   }
 
-  .menu-wrap .menu > div {
+  .menu-wrap .menu>div {
     margin-right: 145px;
   }
 
