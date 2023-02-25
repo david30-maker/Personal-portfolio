@@ -112,8 +112,8 @@ window.onload = () => {
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit.',
       featureImage: 'portfolio_1.png',
       techStack: ['html', 'css', 'javascript'],
-      liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
-      sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
+      liveLink: 'https://david30-maker.github.io/application-deploy/',
+      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
       name: 'Job Agency',
@@ -121,8 +121,8 @@ window.onload = () => {
         'A daily selection of privately personalized readsr sit amet consectetur adipisicing elit.',
       featureImage: 'portfolio_2.png',
       techStack: ['html', 'css', 'javascript'],
-      liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
-      sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
+      liveLink: 'https://david30-maker.github.io/application-deploy/',
+      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
       name: 'Songs Library',
@@ -130,8 +130,8 @@ window.onload = () => {
         'A daily selection of privately personalized reads dolor sit amet consectetur adipisicing elit. ',
       featureImage: 'portfolio_3.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
-      liveLink: 'https://sawmon71293.github.io/personal-portfolio/',
-      sourceLink: 'https://github.com/sawmon71293/personal-portfolio',
+      liveLink: 'https://david30-maker.github.io/application-deploy/',
+      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
       name: 'Portal',

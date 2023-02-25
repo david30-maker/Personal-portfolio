@@ -25,7 +25,7 @@
 
 # 📖 David's Portfolio <a name="about-project"></a>
 
-**David's Portfolio** is a website that displays my skills and the projects Ihave done
+**David's Portfolio** is a website that displays my skills and the projects I have done
 
 ## 🛠 Built With <a name="built-with"></a>
 

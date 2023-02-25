@@ -25,51 +25,8 @@ body {
 .wrapper {
   min-width: 375px;
   height: 718px;
-  background-image:
-    url(images/ellipse_3.png),
-    url(images/Ellipse_4.png),
-    url(images/Ellipse_6.png),
-    url(images/ellipse_11.png),
-    url(images/Rectangle_4.png),
-    url(images/Rectangle_6.png),
-    url(images/Rectangle_5.png),
-    url(images/Rectangle_7.png),
-    url(images/ellipse_12.png),
-    url(images/Ellipse_8.png),
-    url(images/Ellipse_13.png),
-    url(images/Ellipse_2.png),
-    url(images/ellipse_7.png),
-    url(images/ellipse_5.png);
-  background-position-x:
-    116%,
-    71.9%,
-    6%,
-    -4%,
-    107.5%,
-    -8%,
-    67%,
-    30%,
-    87%,
-    85%,
-    86%,
-    70%,
-    14%,
-    29.8%;
-  background-position-y:
-    -5%,
-    93%,
-    90%,
-    15%,
-    16.4%,
-    13%,
-    95%,
-    20%,
-    73%,
-    43%,
-    74.9%,
-    14%,
-    91%,
-    21%;
+  background-image: url(images/bg-1.png);
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 0 0 0 50px;
   background-color: white;
@@ -817,53 +774,9 @@ textarea::-webkit-input-placeholder {
     width: 600px;
   }
 
-  .intro-8 {
-    background-image:
-      url(images/ellipse_3.png),
-      url(images/Ellipse_4.png),
-      url(images/Ellipse_6.png),
-      url(images/ellipse_11.png),
-      url(images/Rectangle_4.png),
-      url(images/Rectangle_6.png),
-      url(images/Rectangle_5.png),
-      url(images/Rectangle-17.png),
-      url(images/ellipse_12.png),
-      url(images/Ellipse_8.png),
-      url(images/Ellipse_13.png),
-      url(images/Ellipse_2.png),
-      url(images/ellipse_7.png),
-      url(images/ellipse_5.png);
-    background-position-x:
-      98%,
-      56%,
-      30%,
-      2%,
-      95%,
-      0.7%,
-      54%,
-      50%,
-      6%,
-      30%,
-      5%,
-      78%,
-      70%,
-      50%;
-    background-position-y:
-      22%,
-      88%,
-      15%,
-      15%,
-      16.6%,
-      12.8%,
-      90%,
-      19.8%,
-      90.1%,
-      15%,
-      91.9%,
-      76%,
-      15%,
-      21%;
-    background-repeat: no-repeat;
+  .wrapper {
+    background-image: url(images/bg-2.png);
+     background-size: cover; 
     background-color: white;
     border-bottom-left-radius: 50px;
   }
