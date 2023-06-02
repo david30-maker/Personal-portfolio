@@ -110,7 +110,7 @@ window.onload = () => {
       name: 'Library',
       description:
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit.',
-      featureImage: 'portfolio_1.png',
+      featureImage: 'image.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
