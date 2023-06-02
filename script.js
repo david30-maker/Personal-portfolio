@@ -107,36 +107,36 @@ navLinks.forEach((link) => link.addEventListener('click', remove));
 window.onload = () => {
   const projects = [
     {
-      name: 'Library',
+      name: 'Expenses Tracker',
       description:
-        'A daily selection of privately personalized reads sit amet consectetur adipisicing elit.',
+      'This is an application built with react that allows users to keep track of their expenditures.',
       featureImage: 'image.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
-      name: 'Job Agency',
+      name: 'Math-magician',
       description:
-        'A daily selection of privately personalized readsr sit amet consectetur adipisicing elit.',
+      'Math-magician is an application built with react that allows users to do simple arithmetics.',
       featureImage: 'image_1.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
-      name: 'Songs Library',
+      name: 'Leaderboard',
       description:
-        'A daily selection of privately personalized reads dolor sit amet consectetur adipisicing elit. ',
+      'This is an application built with javascript that allows users to keep records of participants in a race or competition. ',
       featureImage: 'image_2.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
     {
-      name: 'Portal',
+      name: 'TODO List',
       description:
-        'A daily selection of privately personalized reads sit amet consectetur adipisicing elit. ',
+        'This is an application built with javascript that allows users to keep track of their tasks.',
       featureImage: 'image_3.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
