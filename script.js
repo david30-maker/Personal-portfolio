@@ -119,7 +119,7 @@ window.onload = () => {
       name: 'Job Agency',
       description:
         'A daily selection of privately personalized readsr sit amet consectetur adipisicing elit.',
-      featureImage: 'portfolio_2.png',
+      featureImage: 'image_1.png',
       techStack: ['html', 'css', 'javascript'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
@@ -128,7 +128,7 @@ window.onload = () => {
       name: 'Songs Library',
       description:
         'A daily selection of privately personalized reads dolor sit amet consectetur adipisicing elit. ',
-      featureImage: 'portfolio_3.png',
+      featureImage: 'image_2.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
@@ -137,7 +137,7 @@ window.onload = () => {
       name: 'Portal',
       description:
         'A daily selection of privately personalized reads sit amet consectetur adipisicing elit. ',
-      featureImage: 'portfolio_4.png',
+      featureImage: 'image_3.png',
       techStack: ['html', 'react', 'Ruby on Rails'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
