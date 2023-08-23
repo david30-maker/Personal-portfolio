@@ -36,7 +36,7 @@ window.onresize = () => {
   }
 };
 
-// Model
+// Modal
 const overlayModal = document.getElementById('overlayModal');
 function openModal(modal) {
   if (modal == null) return;

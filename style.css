@@ -493,6 +493,13 @@ button[disabled] {
   margin-right: 16px;
 }
 
+.framework {
+  display: inline-block;
+  align-items: center;
+  margin-top: 12px;
+  font-size: 15px;
+}
+
 .lang {
   display: flex;
   align-items: center;
