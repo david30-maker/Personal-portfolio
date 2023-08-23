@@ -107,40 +107,41 @@ navLinks.forEach((link) => link.addEventListener('click', remove));
 window.onload = () => {
   const projects = [
     {
+      name: 'Budget App',
+      description:
+      'BudgetApp helps you organize your spendings and keeps track of your expenses, it is built with Ruby on Rails and PostgreSQL.',
+      featureImage: 'ror-capstone.png',
+      techStack: ['CSS', 'Ruby', 'Ruby on Rails'],
+      liveLink: 'https://okpah.onrender.com/',
+      sourceLink: 'https://github.com/david-oganization/rails-capstone-project',
+    },
+    {
       name: 'Expenses Tracker',
       description:
       'This is an application built with react that allows users to keep track of their expenditures.',
       featureImage: 'image.png',
-      techStack: ['html', 'css', 'javascript'],
+      techStack: ['html', 'css', 'javascript', 'react', 'redux'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
+   
     {
-      name: 'Math-magician',
+      name: 'CryptoCurrency Data Explorer',
       description:
-      'Math-magician is an application built with react that allows users to do simple arithmetics.',
-      featureImage: 'image_1.png',
-      techStack: ['html', 'css', 'javascript'],
-      liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
-      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
+      'The cryptocurrency data Explorer app is an application that allows users to search out and buy any digital currencies. It is built with React and Redux.',
+      featureImage: 'crypto.png',
+      techStack: ['CSS', 'Webpack', 'React', 'Redux'],
+      liveLink: 'https://david30-maker.github.io/react-capstone1/',
+      sourceLink: 'https://github.com/david30-maker/react-capstone1',
     },
     {
       name: 'Leaderboard',
       description:
-      'This is an application built with javascript that allows users to keep records of participants in a race or competition. ',
+      'This is a leaderboard application built with JavaScript. It allows users to add their scores and view the scores of other players.',
       featureImage: 'image_2.png',
-      techStack: ['html', 'react', 'Ruby on Rails'],
-      liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
-      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
-    },
-    {
-      name: 'TODO List',
-      description:
-        'This is an application built with javascript that allows users to keep track of their tasks.',
-      featureImage: 'image_3.png',
-      techStack: ['html', 'react', 'Ruby on Rails'],
-      liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
-      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
+      techStack: ['CSS', 'Webpack', 'JavaScript'],
+      liveLink: 'https://david30-maker.github.io/leaderboard-project/dist/',
+      sourceLink: 'https://github.com/david30-maker/leaderboard-project',
     },
   ];
   projects.forEach((project, index) => {

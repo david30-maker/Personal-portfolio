@@ -420,6 +420,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+  text-decoration: none;
   justify-content: center;
   letter-spacing: 0.03em;
   color: #396df2;
@@ -457,6 +458,15 @@ button[disabled] {
   margin-top: 10px;
 }
 
+.button1:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.button1:active {
+  background: #2230d2;
+} 
+
 .about_myself {
   min-width: 375px;
   height: 1263px;
@@ -477,7 +487,7 @@ button[disabled] {
   flex-direction: column;
 }
 
-.arrow {
+.arrow_inactive {
   margin-right: 64px;
   font-size: 15px;
 }
@@ -521,7 +531,7 @@ button[disabled] {
 
 .contact_form {
   position: relative;
-  top: 95px;
+  top: 50px;
   min-width: 375px;
   background: url(/img/contact_bg.png) no-repeat #6070ff;
   background-size: cover;
@@ -896,9 +906,10 @@ textarea::-webkit-input-placeholder {
 
   .works {
     background: #e5e5e5;
-    width: 100vw;
-    row-gap: 142px;
-    padding-top: 142px;
+    width: 98vw;
+    row-gap: 50px;
+    padding-top: 60px;
+    margin-left: 20px;
   }
 
   .card {
@@ -972,11 +983,13 @@ textarea::-webkit-input-placeholder {
   }
 
   .pl-12 {
+    margin-left: 0;
     padding-left: 12px;
   }
 
-  .arrow {
-    margin-right: 0;
+  .arrow_inactive {
+    margin-right: 64px;
+  font-size: 15px;
   }
 
   .show-skills {
