@@ -698,9 +698,13 @@ textarea::-webkit-input-placeholder {
 .modal-buttons {
   display: flex;
   margin-bottom: 34px;
-  margin-left: 0;
+  margin-right: 2%;
   justify-content: space-between;
   align-items: center;
+}
+
+.modal-btn {
+  margin-right: 2%;
 }
 
 .modal-buttons .button {
@@ -1103,14 +1107,12 @@ textarea::-webkit-input-placeholder {
     min-width: 1156px;
     height: 1163px;
     top: 8%;
-    left: 9%;
-    right: 9%;
     overflow: hidden;
     position: absolute;
   }
 
   .modal-body {
-    margin-left: 42px;
+    margin-left: 10px;
   }
 
   .modal-body .portfolio {
@@ -1149,14 +1151,12 @@ textarea::-webkit-input-placeholder {
     min-width: 1156px;
     height: 1163px;
     top: 8%;
-    left: 16%;
-    right: 17%;
     bottom: 0%;
     overflow: hidden;
     position: absolute;
   }
 
   .modal-body {
-    margin-left: 32px;
+    margin-left: 10px;
   }
 }

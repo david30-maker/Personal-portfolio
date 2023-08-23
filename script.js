@@ -173,7 +173,7 @@ window.onload = () => {
               <p>${project.description}
               </p>
             </div>
-            <div>
+            <div class="modal-btn">
               <ul class="modal-skills" id="modal-skills">
               </ul>
               <div class="modal-buttons">
