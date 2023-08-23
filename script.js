@@ -120,7 +120,7 @@ window.onload = () => {
       description:
       'This is an application built with react that allows users to keep track of their expenditures.',
       featureImage: 'image.png',
-      techStack: ['html', 'css', 'javascript', 'react', 'redux'],
+      techStack: ['css','react', 'redux'],
       liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
       sourceLink: 'https://github.com/david30-maker/personal-portfolio',
     },
@@ -130,7 +130,7 @@ window.onload = () => {
       description:
       'The cryptocurrency data Explorer app is an application that allows users to search out and buy any digital currencies. It is built with React and Redux.',
       featureImage: 'crypto.png',
-      techStack: ['CSS', 'Webpack', 'React', 'Redux'],
+      techStack: ['CSS', 'React', 'Redux'],
       liveLink: 'https://david30-maker.github.io/react-capstone1/',
       sourceLink: 'https://github.com/david30-maker/react-capstone1',
     },
