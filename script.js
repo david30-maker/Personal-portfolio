@@ -6,6 +6,18 @@ const works = document.querySelector('.works');
 const aboutMyself = document.querySelector('.about_myself');
 const navLinks = document.querySelectorAll('.nav-links');
 
+window.addEventListener('scroll', function() {
+  const nav = document.querySelector('.sticky-nav');
+  const scrollPosition = window.scrollY;
+
+  if (scrollPosition >= 100) {
+      nav.classList.add('sticky');
+  } else {
+      nav.classList.remove('sticky');
+  }
+});
+
+
 function remove() {
   document.getElementById('toggle').checked = false;
   brand.classList.remove('blur');
@@ -109,20 +121,20 @@ window.onload = () => {
     {
       name: 'Budget App',
       description:
-      'BudgetApp helps you organize your spendings and keeps track of your expenses, it is built with Ruby on Rails and PostgreSQL.',
+      'Discover the BudgetApp - your partner in smarter spending. Created using Ruby on Rails and PostgreSQL, it"s designed to help you organize expenses effortlessly.',
       featureImage: 'ror-capstone.png',
       techStack: ['CSS', 'Ruby', 'Ruby on Rails'],
       liveLink: 'https://okpah.onrender.com/',
       sourceLink: 'https://github.com/david-oganization/rails-capstone-project',
     },
     {
-      name: 'Expenses Tracker',
+      name: 'Space Hub',
       description:
-      'This is an application built with react that allows users to keep track of their expenditures.',
-      featureImage: 'image.png',
+      'Space Travelers Hub consists of Rockets, Missions, and the My Profile section. It allows users to make reservation and join mission. It is built with React and Redux',
+      featureImage: 'space.png',
       techStack: ['css','react', 'redux'],
-      liveLink: 'https://david30-maker.github.io/Personal-portfolio/',
-      sourceLink: 'https://github.com/david30-maker/personal-portfolio',
+      liveLink: 'https://space-travelers-hub-2zo8.onrender.com/',
+      sourceLink: 'https://github.com/evillaz/space-hub',
     },
    
     {

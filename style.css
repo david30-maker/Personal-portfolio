@@ -147,6 +147,32 @@ body {
   transition: opacity 0.4s ease;
 }
 
+.welcome_address {
+  background-image: linear-gradient(to right, #4d2dc0, #b130e4, #251d1a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.welcome_address:hover {
+  background-image: linear-gradient(to right, #4d2dc0, #6e104a, #251d1a);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  transform: translate(4px, 4px);
+  transition-duration: var(--menu-speed);
+}
+
+.welcome_p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #560c3b;
+}
+
 .intro li {
   margin-right: 23px;
 }
@@ -487,6 +513,18 @@ button[disabled] {
   flex-direction: column;
 }
 
+.sticky-nav {
+  width: 100%;
+  background-color: #fff; 
+  transition: top 0.3s ease-in-out; 
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
 .arrow_inactive {
   margin-right: 64px;
   font-size: 15px;
@@ -759,8 +797,15 @@ textarea::-webkit-input-placeholder {
   pointer-events: none;
 }
 
-.no-outline:focus {
-  outline: none;
+.no-outline {
+  width: 90px;
+  height: 90px;
+  background: rgb(229, 160, 160);
+  transition: width 2s;
+}
+
+.no-outline:hover {
+  width: 300px;
 }
 
 #overlayModal.active {
@@ -1037,6 +1082,11 @@ textarea::-webkit-input-placeholder {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
   }
+
+  .no-outline:focus {
+    border-bottom-color: #3498db;
+    transform: scale(1.1);
+  } */
 
   .content {
     padding-bottom: 16px;
