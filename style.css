@@ -147,23 +147,28 @@ body {
   transition: opacity 0.4s ease;
 }
 
-.welcome_address {
-  background-image: linear-gradient(to right, #4d2dc0, #b130e4, #251d1a);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  font-size: 40px;
-  margin-bottom: 10px;
+@keyframes textAnimation {
+  0% {
+    transform: translate(4px, 4px);
+    background-position: 0% 50%;
+  }
+  50% {
+    transform: translate(-4px, -4px);
+    background-position: 100% 50%;
+  }
+  100% {
+    transform: translate(4px, 4px);
+    background-position: 0% 50%;
+  }
 }
 
-.welcome_address:hover {
+.welcome_address {
+  font-size: 40px;
   background-image: linear-gradient(to right, #4d2dc0, #6e104a, #251d1a);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  font-size: 40px;
-  transform: translate(4px, 4px);
-  transition-duration: var(--menu-speed);
+  animation: textAnimation 1s infinite; 
 }
 
 .welcome_p {
@@ -171,6 +176,25 @@ body {
   font-size: 16px;
   line-height: 24px;
   color: #560c3b;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.links a {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #0056b3;
 }
 
 .intro li {
@@ -648,6 +672,30 @@ textarea::-webkit-input-placeholder {
   transform: rotate(-90deg);
 }
 
+@keyframes inputMovement {
+  0% {
+    transform: translateX(10px);
+  }
+  50% {
+    transform: translateX(50px); 
+  }
+  100% {
+    transform: translateX(10);
+  }
+}
+
+.no-outline {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  animation: inputMovement 3s infinite;
+}
+
+.no-outline:focus {
+  width: 700px; 
+}
+
 .modal {
   position: fixed;
   top: 5%;
@@ -795,17 +843,6 @@ textarea::-webkit-input-placeholder {
   right: 0;
   bottom: 0;
   pointer-events: none;
-}
-
-.no-outline {
-  width: 90px;
-  height: 90px;
-  background: rgb(229, 160, 160);
-  transition: width 2s;
-}
-
-.no-outline:hover {
-  width: 300px;
 }
 
 #overlayModal.active {
@@ -1082,11 +1119,6 @@ textarea::-webkit-input-placeholder {
     border: 1px solid #cfd8dc;
     border-radius: 2px;
   }
-
-  .no-outline:focus {
-    border-bottom-color: #3498db;
-    transform: scale(1.1);
-  } */
 
   .content {
     padding-bottom: 16px;

@@ -95,7 +95,10 @@ function createCard(project, index) {
           </p>              
           <ul class="skills project_${index}">
           </ul>
-          <button class="button" data-project=${dataStr} data-toggle="modal" data-modal-target="#modal" > See project </button>
+          <div class="links">
+            <a href="${project.liveLink}" target="_blank">Live Demo</a>
+            <a href="${project.sourceLink}" target="_blank">Source Code</a>
+          </div>
          </div>
         </div>`;
 
@@ -156,6 +159,7 @@ window.onload = () => {
       sourceLink: 'https://github.com/david30-maker/leaderboard-project',
     },
   ];
+  
   projects.forEach((project, index) => {
     createCard(project, index);
   });
