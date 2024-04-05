@@ -62,7 +62,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-
 - [Live Demo Link](https://david30-maker.github.io/Personal-portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
