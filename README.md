@@ -52,7 +52,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - **Mobile navigation menu**
 - **Headline sections**
 
