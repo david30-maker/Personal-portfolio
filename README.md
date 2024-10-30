@@ -19,7 +19,6 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-
 # 📖 David's Portfolio <a name="about-project"></a>
 
 **David's Portfolio** is a website that displays my skills and the projects I have done
